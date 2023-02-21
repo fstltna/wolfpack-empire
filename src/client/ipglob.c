@@ -31,7 +31,7 @@
  *     Markus Armbruster, 2005
  */
 
-char empirehost[] = "127.0.0.1";
+char empirehost[] = "empiredirectory.net";
 char empireport[] = "6665";
 
 /*

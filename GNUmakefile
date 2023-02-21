@@ -84,7 +84,7 @@ VPATH := .
 
 revctrl := 
 
-EMPIREHOST := 127.0.0.1
+EMPIREHOST := empiredirectory.net
 EMPIREPORT := 6665
 
 include $(srcdir)/Make.mk
