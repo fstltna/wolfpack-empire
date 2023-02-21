@@ -8,14 +8,14 @@ Level: Expert
 SYNTAX
    [##:##] Command : ndump <NUKES>
 
-The  ndump  command  displays  all  information on some or all of your nuclear
-devices.  Each nuke's information is printed on one very  long  line.   Fields
-are separated by a single space.
+The  ndump command displays all information on some or all of your nuclear de-
+vices.  Each nuke's information is printed on one very long line.  Fields  are
+separated by a single space.
 
 This command is designed to be used for input to an empire tool such as "ve".
 
-In  the  syntax  of  the ndump command <NUKES> are the ships on which you wish
-information (see "info Syntax").
+In the syntax of the ndump command <NUKES> are the ships on which you wish in-
+formation (see "info Syntax").
 
 An ndump command lists all selected nuclear devices headed by:
 

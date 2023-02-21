@@ -8,15 +8,15 @@ Level: Expert
 SYNTAX
    [##:##] Command : origin <SECTOR|COUNTRY|~>
 
-This  command  moves  the  origin  of  your  coordinate  system  (where 0,0 is
-located).
+This  command  moves the origin of your coordinate system (where 0,0 is locat-
+ed).
 
 You can move it to another sector, or to the  origin  of  an  allied  country.
 Deities can also use a "~" argument to move it to absolute 0,0.
 
 This command does not change the location of your nation's capital, though its
-coordinates, like the coordinates of all  other  sectors,  will  be  different
-after using the origin command.
+coordinates, like the coordinates of all other sectors, will be different  af-
+ter using the origin command.
 
 Your  "realms" will be automatically recalculated to point to the same area on
 the map.

@@ -9,9 +9,9 @@ Military and the Demobilization of Same
 
    It's  generally  a good idea to put demobilized military on active reserve.
    You should also consider whether you need an enlistment center to  generate
-   more  military.   You  can't  enlist  more  military than you have military
-   reserves.  The "nation" command will tell you how many military  you  have.
-   Be  careful, as many players have lost their countries through carelessness
+   more  military.   You can't enlist more military than you have military re-
+   serves.  The "nation" command will tell you how many military you have.  Be
+   careful,  as  many  players  have lost their countries through carelessness
    with their military at the start of the game.
 
    Actually, the enlist command cannot activate more military than you have on
@@ -26,9 +26,9 @@ Military and the Demobilization of Same
    tor).   No  more  may  be enlisted than the number of reserves.  Enlistment
    costs mobility whereas while demobilization costs cash.  Military can  only
    be  demobilized  in sectors with a 60% efficiency or greater.  No more than
-   one-half the number of civilians  in  a  sector  may  be  enlisted  in  one
-   "enlist"  command,  but if it is issued many times, virtually all civilians
-   in a sector may be enlisted.
+   one-half the number of civilians in a sector may be enlisted  in  one  "en-
+   list" command, but if it is issued many times, virtually all civilians in a
+   sector may be enlisted.
 
    One thousand reserves is enough for now, although I  figure  I  always  put
    them on reserve when I demobilize, at least up to 10,000.
@@ -42,8 +42,8 @@ Military and the Demobilization of Same
 
    Depends on how you want to use them, I guess.  I figure with 200 jet trans-
    ports  at  127  mobility, I can land 20,000 military in an enemy country in
-   one night, so I'd say 20,000 is a safe  upper  limit  for  reserves.   I've
-   never needed more than that.
+   one night, so I'd say 20,000 is a safe upper limit for reserves.  I've nev-
+   er needed more than that.
 
 Distribution Hints
 
@@ -68,14 +68,14 @@ War Zones
    There's  also the problem of what to do in an invasion.  I guess if invaded
    I just accept the damage, and don't try to fix it until the war ends.
 
-   In a war zone I generally follow one  of  two  basic  plans.   If  I'm  the
-   invader,  I  either leave the sectors as they are and let the country being
-   invaded fall apart, or if I can do something  to  make  it  worse  for  the
-   enemy,  I  sometimes  do  that.  I sometimes designate conquered sectors to
-   agribusinesses if they need food, banks to reduce shelling damage,  enlist-
-   ment  centers  for military, forts for firing and attacking, harbors to get
-   ships in, warehouses to collect, move, and  distribute  supplies,  airbases
-   for planes and bridge heads for easy movement.
+   In a war zone I generally follow one of two basic plans.  If I'm the invad-
+   er, I either leave the sectors as they are and let the country being invad-
+   ed fall apart, or if I can do something to make it worse for the  enemy,  I
+   sometimes  do  that.   I sometimes designate conquered sectors to agribusi-
+   nesses if they need food, banks to reduce shelling damage, enlistment  cen-
+   ters for military, forts for firing and attacking, harbors to get ships in,
+   warehouses to collect, move, and distribute supplies, airbases  for  planes
+   and bridge heads for easy movement.
 
    When being invaded, I also generally postpone any long term development and
    just concentrate on the basic sectors types for combat (a,b,c,e,f,h,w,#,*)

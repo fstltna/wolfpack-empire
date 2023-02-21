@@ -11,8 +11,8 @@ SYNTAX
 The  bestpath  command  shows you the best path from any sector to any sector.
 You must own both sectors.
 
-The path shown by bestpath is the cheapest owned existing  path  in  terms  of
-mobility.
+The path shown by bestpath is the cheapest owned existing path in terms of mo-
+bility.
 
 Note  that  if  you  give these commands areas, they will show you more paths.
 For example,

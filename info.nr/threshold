@@ -11,8 +11,8 @@ SYNTAX
 The  threshold command is used to specify the level of a given commodity which
 is to be maintained by the sector's distribution  sector.   These  levels  are
 maintained by either importing or exporting commodities.  This importation and
-exportation is done automatically during an update.  It uses much less  mobil-
-ity than manual moves.  See "info Mobility" for details.
+exportation is done automatically during an update.  It uses much less mobili-
+ty than manual moves.  See "info Mobility" for details.
 
 In  the syntax, <SECTS> is the sector or sectors from which the deliveries are
 made, <ITEM> is one of the following:

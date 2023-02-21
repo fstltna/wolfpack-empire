@@ -25,11 +25,11 @@ SYNTAX
    [##:##] Command : load <COMMODITY> <SHIPS> <AMOUNT>
 
 In the first form, the amount argument specifies the amount of the given  com-
-modity  you  wish  to  load on each ship specified.  Amounts greater than that
-allowed will be truncated to the maximum possible. Amounts less than  0  indi-
-cate  that you want to make the ships have that amount. If the ships have less
-than that amount, more will be loaded.  If  the  ships  have  more  than  that
-amount, the commodity will be unloaded. For example,
+modity you wish to load on each ship specified.  Amounts greater than that al-
+lowed will be truncated to the maximum possible. Amounts less than 0  indicate
+that  you want to make the ships have that amount. If the ships have less than
+that amount, more will be loaded. If the ships have more than that amount, the
+commodity will be unloaded. For example,
 
    [##:##] Command : load food 3 -100
 

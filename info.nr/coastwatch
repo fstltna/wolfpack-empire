@@ -13,8 +13,8 @@ The coastwatch command allows coastal sectors to report sightings of ships.
 Visibility  range  is equal to four times the sector efficiency expressed as a
 decimal times the technology factor; e.g. a 100% efficient harbor with  a  50%
 technology  factor  can  see  2 sectors away.  An exception is radar installa-
-tions, which have a maximum range equal to fourteen  times  the  sector  effi-
-ciency, (i.e. 3.5 times as far).
+tions, which have a maximum range equal to fourteen times the sector efficien-
+cy, (i.e. 3.5 times as far).
 
 A typical usage might be:
    [##:##] Command : coast #3 ?type=)

@@ -9,11 +9,11 @@ Level: Expert
 SYNTAX
    [##:##] Command : neweff <SECTS>
 
-Neweff predicts how efficient a sector or  sectors  will  be  after  the  next
-update.
+Neweff predicts how efficient a sector or sectors will be after the  next  up-
+date.
 
-In  the  syntax  of  the  neweff command <SECTS> is the area on which you wish
-information, (see "info syntax").
+In  the syntax of the neweff command <SECTS> is the area on which you wish in-
+formation, (see "info syntax").
 
 A typical usage might be:
    [##:##] Command : neweff 2,0

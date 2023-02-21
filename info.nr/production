@@ -15,10 +15,10 @@ sector.
 Note  that  due  to random rounding factors in the update, prod is not totally
 accurate -- it may be off by a little bit.
 
-In the syntax of the produce command <SECTS> is the area  on  which  you  wish
-information,  (see  "info  syntax").  Produce reports on any sector that would
-produce goods, sectors that don't produce anything or are less than 60%  effi-
-cient are ignored.
+In the syntax of the produce command <SECTS> is the area on which you wish in-
+formation, (see "info syntax").  Produce reports on any sector that would pro-
+duce goods, sectors that don't produce anything or are less than 60% efficient
+are ignored.
 
 A typical usage might be:
    [##:##] Command : produce 0:9,0:9 ?type=m
@@ -34,8 +34,8 @@ These columns represent:
     sect  the x and y coordinates of the sector
      des  The sectors designation
      eff  the efficiency of the sector in doing its task.  Note that some sec-
-          tors although working at 100%  may  show  up  less  as  the  natural
-          resources influence this figure.
+          tors although working at 100% may show up less as  the  natural  re-
+          sources influence this figure.
    avail  the amount of work done in the sector.
     make  How much of what product will be made at the next update.
     p.e.  Production  efficiency  -  the  efficiency with which the product is

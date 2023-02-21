@@ -68,8 +68,8 @@ The  maximum  distance at which ship A can see ship B is dependent on two fac-
 tors: the "spying" ability of ship A, and the "visibility" of ship B.  Battle-
 ships  have  sophisticated  communications equipment which give them a maximum
 spying range of 6 while fishing boats, having little such  equipment,  have  a
-maximum  range  of  2.   This  factor is shown in a table in "info Ship-types"
-under the heading "spy".  On the other hand, the ships vary in size and conse-
+maximum  range of 2.  This factor is shown in a table in "info Ship-types" un-
+der the heading "spy".  On the other hand, the ships vary in size  and  conse-
 quently,  vary in visibility.  Battleships, oil derricks, and carriers are the
 easiest to see; next come cargo ships, heavy cruisers and tenders, and so  on.
 See "info Ship-types" for a chart.

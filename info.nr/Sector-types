@@ -29,11 +29,11 @@ spanned by bridges.  You can't designate anything else to be sea, nor can  sea
 be designated to be anything else.
 
 MOUNTAIN - Mountain sectors form another natural barrier that cannot be redes-
-ignated; however, they can be moved through, at  great  expense  in  terms  of
-mobility.   In  a pinch, mountains can be used as capital.  They generate very
-few BTUs, and represent being 'holed up in the mountains', perhaps like Pancho
-Villa.   Mountains  typically  hold only 1/10th of the civilians and uncompen-
-sated workers that other sectors do.
+ignated; however, they can be moved through, at great expense in terms of  mo-
+bility.  In a pinch, mountains can be used as capital.  They generate very few
+BTUs, and represent being 'holed up in the  mountains',  perhaps  like  Pancho
+Villa.  Mountains typically hold only 1/10th of the civilians and uncompensat-
+ed workers that other sectors do.
 
 SANCTUARY - Sanctuary sectors are created when a new nation is created.   They
 are  inviolate  in  that no one can attack or harm them.  This protection ends
@@ -55,14 +55,14 @@ CAPITAL/CITY - These sectors can serve as your capital.  You'll be quite help-
 less  without a capital, as many commands require you to have one.  Your capi-
 tal is also your source of bureaucratic time units (BTUs), see "info BTU".   A
 nation  may  only have one active capital at a time, although many sectors may
-be designated as capitals.  Use the capital command  to  make  a  capital  the
-active  one.   The capture of a capital has disastrous consequences, which are
-described in "info capital ".  Capitals  are  typically  better  at  defending
+be designated as capitals.  Use the capital command to make a capital the  ac-
+tive one.  The capture of a capital has disastrous consequences, which are de-
+scribed in "info capital  ".   Capitals  are  typically  better  at  defending
 against attack than other sectors, except fortresses.
 
-PARK  -  Parks  are  provided solely for the convenience of the people.  Parks
-require construction materials to provide maintenance services and  add  to  a
-nation's "happiness" level.
+PARK - Parks are provided solely for the convenience of the people.  Parks re-
+quire construction materials to provide maintenance services and add to a  na-
+tion's "happiness" level.
 
                                 COMMUNICATIONS
 
@@ -75,15 +75,15 @@ plot identifying sector types at distances up to 1/3 their range and ships  up
 to a distance depending on ship visibility.
 
 BRIDGE  HEAD  - Bridge heads are the land based ends of bridges.  They let you
-build bridge spans; see "info build"  for  how.   If  option  EASY_BRIDGES  is
-enabled, any sector can build bridges, not just bridge heads.
+build bridge spans; see "info build" for how.  If option EASY_BRIDGES  is  en-
+abled, any sector can build bridges, not just bridge heads.
 
-BRIDGE  SPAN  -  A  bridge span is the suspended part of a bridge that crosses
-water sectors.  Bridge spans are built and supported by bridge heads  and  are
+BRIDGE SPAN - A bridge span is the suspended part of a bridge that crosses wa-
+ter sectors.  Bridge spans are built and supported by  bridge  heads  and  are
 much like highways except for two things:
 (1) Bridge spans must maintain at least 20% efficiency or else they collapse.
-(2)  If  the  only bridge head supporting a particular bridge span is redesig-
-nated as  something  else,  the  bridge  span  will  collapse,  unless  option
+(2) If the only bridge head supporting a particular bridge span is redesignat-
+ed  as  something  else,  the  bridge  span  will  collapse,   unless   option
 EASY_BRIDGES is enabled.
 
 BRIDGE  TOWER  -  Bridge towers are like bridge heads you can build out in the
@@ -105,15 +105,15 @@ ordinary sector.
 
                                   INDUSTRIES
 
-DEFENSE - Defense plants turn construction  materials  into  guns.   Guns  are
-required to equip fortresses, warships, some land units and for sector flak.
+DEFENSE - Defense plants turn construction materials into guns.  Guns are  re-
+quired to equip fortresses, warships, some land units and for sector flak.
 
 SHELL  INDUSTRY  -  These  sectors are similar to defense plant sectors except
 they turn construction materials into shells.  Most of anything that goes boom
 expends shells in the process.
 
-MINE  -  Mines  produce  iron  ore  by  digging it out of the ground.  Iron is
-required to make construction materials.
+MINE  -  Mines  produce iron ore by digging it out of the ground.  Iron is re-
+quired to make construction materials.
 
 GOLD MINE - Gold mines are similar to ordinary mines, except that they produce
 gold  dust.   Gold  dust is required to make gold bars, which are an important
@@ -131,8 +131,8 @@ WAREHOUSE - Warehouses are used to store commodities.  They are good at moving
 commodities, and are often used as distribution centers.
 
 AIRFIELD - This is where you build planes; see "info build" for how.  Airfield
-also repair incomplete or damaged planes, provided  there's  enough  work  and
-materials.   Planes can take off and land at airfields.  Some can take off and
+also repair incomplete or damaged planes, provided there's enough work and ma-
+terials.   Planes  can  take off and land at airfields.  Some can take off and
 land in other sectors as well, and some  can  also  use  carriers;  see  "info
 Plane-types" for details.
 
@@ -162,8 +162,8 @@ turn  construction  materials  into technological advances thereby raising the
 technology level of the country (which affects gun ranges, pollution, etc.).
 
 RESEARCH - The research lab is a bastion of "pure" medical research, which  is
-to  say  it  is  a  large university with massive March-of-Dimes funding.  The
-research lab turns construction materials into medical discoveries which raise
+to  say it is a large university with massive March-of-Dimes funding.  The re-
+search lab turns construction materials into medical discoveries  which  raise
 the  research level of the country and help retard the spread of disease (usu-
 ally caused by the pollution from technical centers).
 
@@ -174,8 +174,8 @@ for how.
 
 LIBRARY/SCHOOL  -  The  library/school sector is the foundation of a country's
 educational structure.  It uses up construction materials to produce units  of
-education  which  raise  the  educational  level of the country, which in turn
-affects the efficiency of research and technology sectors.
+education  which raise the educational level of the country, which in turn af-
+fects the efficiency of research and technology sectors.
 
 ENLISTMENT - The enlistment sector is the boot camp of  Empire.   It  converts
 civilians into military.  Unlike the other production sectors, it can use only
@@ -213,8 +213,8 @@ build hcm  The hcm required to build the sector.
   build $  What it costs to build the sector.
   maint $  Cost of maintenance per update.
 
-The  show  command  also  shows infrastructure build costs.  Infrastructure is
-additional facilities you can build up in your sectors.  See "info Infrastruc-
+The show command also shows infrastructure build costs.  Infrastructure is ad-
+ditional facilities you can build up in your sectors.  See  "info  Infrastruc-
 ture" for details.
 
 To check out various stats, you do:
@@ -261,8 +261,8 @@ The  two  mob cost columns show the relative cost to move through such sectors
 at 0% and 100% efficiency.  It changes linearly between 0% and 100%.
 
 Combat strength is multiplied by sector offensive factor on attack and  defen-
-sive  factor  on  defense.   Columns  max off and def show them for 100% effi-
-ciency.  They're always 1 for 0%, except for mountains, where the 0% defensive
+sive  factor on defense.  Columns max off and def show them for 100% efficien-
+cy.  They're always 1 for 0%, except for mountains,  where  the  0%  defensive
 factor is 2.  Both factors change linearly between 0% and 100%.
 
 Some  sector  types are more adept at moving certain commodities: the mobility

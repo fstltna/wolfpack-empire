@@ -11,8 +11,8 @@ SYNTAX
 The  cutoff report provides information about the various delivery cutoff lev-
 els in some or all of the sectors that you occupy.
 
-In the syntax of the level command <SECTS> is  the  area  on  which  you  wish
-information, (see "info syntax").  A typical usage might be:
+In the syntax of the level command <SECTS> is the area on which you  wish  in-
+formation, (see "info syntax").  A typical usage might be:
    [##:##] Command : cutoff -6:6,-3:3
 which  would list data for the area extending three sectors out from the capi-
 tal in each direction.

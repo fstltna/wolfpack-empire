@@ -99,8 +99,8 @@ The presence of food also affects the birthrate in Empire; if there is no food
 in a sector no babies will be born.  A baby consumes  0.3  units  of  food  in
 growing  to  adulthood.  However, babies are only allowed to eat half the food
 in a sector.  Thus if a sector could produce 25 new civilians but only  has  2
-spare  units  of  food,  (after  the current population has eaten), only three
-babies will be born and one unit of food will be left.
+spare  units of food, (after the current population has eaten), only three ba-
+bies will be born and one unit of food will be left.
 
 SEE ALSO
    Innards, Populace, Updates

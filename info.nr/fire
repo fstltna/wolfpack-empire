@@ -54,26 +54,25 @@ Any  land  unit may fire as long as it has at least one military, at least one
 shell, and has at least 40% efficiency.  A land unit's gun range is its firing
 range,   as   shown   by   the   show   command,   divided   by   two,   times
 ((50+tech)/(200+tech)).  A land unit uses the amount of ammo, as shown by  the
-lstat  command,  each  time  it  fires.  A unit with less shells than its ammo
-requirement will do proportionately  less  damage.   (See  "show"  for  firing
-ranges)
+lstat  command, each time it fires.  A unit with less shells than its ammo re-
+quirement will do proportionately less damage.  (See "show" for firing ranges)
 
 Forts, land units, and non-depth-charge-equipped ships
- cannot  hit submarines on the high seas.  The only way to fire on a submarine
+ cannot hit submarines on the high seas.  The only way to fire on a  submarine
 is to have a depth-charge-equipped ship drop a depth charge on it, costing two
-shells.   (Note you can also hit subs using ASW planes or subs which have sub-
+shells.  (Note you can also hit subs using ASW planes or subs which have  sub-
 torp capability.)
 
-The program then prints a satisfying "Kaboom!!!" and,  assuming  you  were  in
+The  program  then  prints  a satisfying "Kaboom!!!" and, assuming you were in
 range, inflicts damage.
 
 Ships lose 15 mobility points for each shot fired. (If the NOMOBCOST option is
 in use, ships pay no mobility for firing.)
 
 The damages inflicted vary with efficiency of the attacker, the number of guns
-fired  (7  being the useful max for forts), and the armor of the victim.  Land
-sectors take damage depending on their defensive strength.   Use  the  command
-'show  sector  stats'  to  show defensive strengths.  The higher the defensive
+fired (7 being the useful max for forts), and the armor of the  victim.   Land
+sectors  take  damage  depending on their defensive strength.  Use the command
+'show sector stats' to show defensive strengths.   The  higher  the  defensive
 strength, the less damage the sector will take.
 
 An illustrative example of shelling land:
@@ -82,7 +81,7 @@ An illustrative example of shelling land:
    Kaboom!!!
    13% damage done to sector 34,18
 
-Meanwhile, the owner of sector 34,18 might be logged on and would perhaps  see
+Meanwhile,  the owner of sector 34,18 might be logged on and would perhaps see
 the following:
 
    [15:98] Command: cen 34,18
@@ -112,22 +111,22 @@ The player could have typed:
 
 In that case, ALL forts in realm 0 would have fired on sector 34,18.
 
-If  the  sector fired on is a fort with guns and shells it will fire back with
+If the sector fired on is a fort with guns and shells it will fire  back  with
 approximately the same damages (assuming it has the range).
 
-Also, any friendly forts, units, or ships within range of  the  attacker  will
-return  fire,  including  those  belonging to allies, if the allies are at war
+Also,  any  friendly  forts, units, or ships within range of the attacker will
+return fire, including those belonging to allies, if the  allies  are  at  war
 with the attacker as well.
 
-If a ship fired on has guns and shells it will fire back AND any other  ships,
-units,  or  forts  of the same nationality that are in range will also fire on
+If  a ship fired on has guns and shells it will fire back AND any other ships,
+units, or forts of the same nationality that are in range will  also  fire  on
 you.
 
 All return fire is split evenly over all attacking sectors/units/ships, and is
 adjust by the ratio of defending things to attacking things.
 
-IMPORTANT  NOTE: Gun ranges, both on offense AND defense, are somewhat random.
-If you have a range of 4.16, you can always shoot to 4, and have a 16%  chance
+IMPORTANT NOTE: Gun ranges, both on offense AND defense, are somewhat  random.
+If  you have a range of 4.16, you can always shoot to 4, and have a 16% chance
 of being able to fire at range 5...
 
 SEE ALSO

@@ -27,9 +27,9 @@ level.
 
 The procedure determining how much your research level goes up every update is
 exactly the same for research as it is for technology (see "info  Technology")
-except  for  the  fact  that  "research  log  base"  is  always 2.00 and "easy
-research" is always 0.75.  But besides  this,  research  bleeds,  decays,  and
-leaks in exactly the same way as technology.
+except  for  the  fact  that  "research log base" is always 2.00 and "easy re-
+search" is always 0.75.  But besides this, research bleeds, decays, and  leaks
+in exactly the same way as technology.
 
 SEE ALSO
    Innards, nation, Products, Technology, Nations, Producing, Updates

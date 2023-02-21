@@ -36,8 +36,8 @@ have (from your bmap) concerning the current area, to help plot your course.
 
 Information given by recon is not totally accurate.
 
-Recon  missions  can  be  intercepted  just  like any other mission.  See info
-"Intercept".
+Recon  missions can be intercepted just like any other mission.  See info "In-
+tercept".
 
 If the destination sector is not an airport, then all planes  in  the  mission
 must have V/STOL capability.
@@ -46,9 +46,9 @@ Planes with the ASW ability will perform a sonar search on each sector as they
 fly through it.  Each sub contact will be reported only once, giving the  sec-
 tor  and  number  of  the  sub,  from the sector in which it is first detected
 (which may not be the sector the sub is in, as plane sonar has a range  depen-
-dent   on   acc,   and   a  chance  of  finding  a  sub  of  ((100-acc)-(4-sub
-visib)*10))+((100-effic)/5) percent.  The sub being  sonared  may  detect  the
-sonar ping.
+dent  on  acc,  and  a  chance  of  finding  a  sub  of ((100-acc)-(4-sub vis-
+ib)*10))+((100-effic)/5) percent.  The sub being sonared may detect the  sonar
+ping.
 
 Note  that  a  plane  must  be  at least 40% efficient before it can leave the
 ground.

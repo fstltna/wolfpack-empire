@@ -9,8 +9,8 @@ SYNTAX
    [##:##] Command : nation [as-COUNTRY]
 
 The nation report command displays various data about a country.  The as-COUN-
-TRY defaults to yourself.  Only a  deity  can  request  a  nation  report  for
-another country.
+TRY defaults to yourself.  Only a deity can request a nation report for anoth-
+er country.
 
 The  data displayed by the nation command is formatted as a single page report
 and should be self explanatory.  For example:

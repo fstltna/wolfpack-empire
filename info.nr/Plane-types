@@ -194,18 +194,18 @@ stealth  the percentage chance this plane has of evading detection
 The abilities are given as a set of attributes for each plane.  These include:
 
     tactical  Pinpoint  bombing  ability.  Can be put on interdiction and sup-
-              port missions.  Tactical missiles may  be  launched  at  sectors
-              unless they have "marine" ability in which case they may only be
+              port missions.  Tactical missiles may be launched at sectors un-
+              less  they  have "marine" ability in which case they may only be
               fired at ships.
       bomber  strategic bombing ability
    intercept  Interception and escort ability.  May be put on  escort  or  air
               defense missions.
        cargo  cargo-carrying ability
         VTOL  vertical take-off ability -- no need to use airports
-     missile  missile  --  one  shot,  can  be  launched  (see  info  launch).
-              "marine" missiles may only be fired at  ships,  "tactical"  mis-
-              siles  which don't have "marine" capability may only be fired at
-              sectors.
+     missile  missile  --  one  shot, can be launched (see info launch).  "ma-
+              rine" missiles may only be fired at ships,  "tactical"  missiles
+              which  don't  have "marine" capability may only be fired at sec-
+              tors.
        light  light, can land on carriers or be carried on a submarine
          spy  spy ability, for recon missions (see info recon, info bomb, info
               satellite)

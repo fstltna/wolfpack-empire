@@ -9,8 +9,8 @@ Level: Expert
 
 So you want to try the New Empire Huh?
 
-Okay,  I  have written this document with YOU in mind!  Welcome to the Univer-
-sity of California at Berkeley's Empire!  (From now  on  called  UCB  Empire).
+Okay, I have written this document with YOU in mind!  Welcome to the Universi-
+ty of California at Berkeley's Empire!   (From  now  on  called  UCB  Empire).
 There are a whole bunch of changes in the game since we last played, so I need
 to bring you up to date.
 
@@ -50,8 +50,8 @@ until you reach the desired TECH LEVEL.
 
 Also, it takes more "Materials" to make 1 Unit of a finished product.  By this
 I  mean that to make approximately "1 SHELL" at your shell factory, you'd have
-to have: 3 Dollars (in the treasury), 2 LCM, 1  HCM,  and  at  least  20  TECH
-Level.
+to have: 3 Dollars (in the treasury), 2 LCM, 1 HCM, and at least 20 TECH  Lev-
+el.
 
 LCM  is Light Construction Materials, HCM is Heavy Construction Materials, and
 I discussed the TECH Level problem (above).  To fully understand this  concept
@@ -59,17 +59,17 @@ I discussed the TECH Level problem (above).  To fully understand this  concept
 
 FORTS  -  have been improved.  It used to be in OLD Empire that you had to use
 the DEFEND command to say which sectors you wanted to  DEFEND  with  the  guns
-from  your  fort.   But  in the NEW Empire - your forts will fire on ANY enemy
-attacker as long as the attacker is within the guns' range when  the  "attack"
-was made.  Hence - no more DEFEND command.
+from your fort.  But in the NEW Empire - your forts will fire on ANY enemy at-
+tacker as long as the attacker is within the guns' range when the "attack" was
+made.  Hence - no more DEFEND command.
 
 FOOD  -  In  the OLD Empire you didn't have to worry about it - the people fed
 themselves.  But in the NEW Empire - there is a new sector designation  called
 "a"  for  agribusiness.  These are farms that make food and you have to trans-
 port that food to other sectors that don't grow food  or  those  sectors  will
 starve.  **NOTE** that in the "FERTILITY" rating in the "CENSUS" report - only
-those with HIGH Fertility ratings can successfully grow food.  If the  FERTIL-
-ITY rating is in the 10-30% - BE CAREFUL - they may not be able to grow enough
+those with HIGH Fertility ratings can successfully grow food.  If the FERTILI-
+TY  rating is in the 10-30% - BE CAREFUL - they may not be able to grow enough
 food to sustain even themselves!  Food is also a  great  Commodity  to  "SELL"
 (hint,hint!)
 
@@ -80,10 +80,10 @@ the "planes"!  Thunderstorms, tornadoes,  hurricanes,  earthquakes,  volcanos,
 etc.   BUT  FOR NOW - THERE IS NO WEATHER - Atmosphere is stuck at "0" - clear
 days!
 
-NEXT UPDATE (how will I know when it is supposed to  Happen?)  -  EMPIRE  will
-always  tell  you  when the NEXT UPDATE is scheduled by using the VERSION com-
-mand.  VERSION will also tell you how much food will grow per-update and  also
-things like - how much food you people eat per update - etc.
+NEXT UPDATE (how will I know when it is supposed to Happen?) - EMPIRE will al-
+ways  tell you when the NEXT UPDATE is scheduled by using the VERSION command.
+VERSION will also tell you how much food will grow per-update and also  things
+like - how much food you people eat per update - etc.
 
 MAP  CHANGES - in the OLD Empire you could move u)p, l)eft, r)ight, d)own, etc
 - but now you have to move in DIAGONALS - you'll get used to it - the world is
@@ -119,9 +119,9 @@ keep the ENLISTMENT rate high.
 
 URANIUM MINE - I forgot to add this above with the other  Commodities  -  with
 the  Commodities "FERTILITY", "OIL", "GOLD", "MINE" - there is also "URANIUM".
-Uranium is the most UNCOMMON natural resource and  hence  those  that  have  a
-deposit  of  it should be careful to guard it well.  When URANIUM is dug up it
-becomes "radioactive Matter" - you then deliver the Radioactive Matter to  the
+Uranium is the most UNCOMMON natural resource and hence those that have a  de-
+posit of it should be careful to guard it well.  When URANIUM is dug up it be-
+comes "radioactive Matter" - you then deliver the Radioactive  Matter  to  the
 Nuclear  Plant and have it converted into - you guessed it - NUKES!  Be aware,
 however, that you must have a HIGH Tech level to make nukes - and it is  going
 to take you a LONG TIME to get to this point.
@@ -131,8 +131,8 @@ for your various AIRPLANE needs.  Planes run on PETROL and the  refinery  sec-
 tors make PETROL out of OIL.  You then have to deliver the PETROL to your Air-
 ports for use...
 
-LIBRARY/SCHOOL:  Obviously your people aren't very smart :-)  As  it  is  your
-going  to need to educated them.  Education will increase CROP yields and also
+LIBRARY/SCHOOL:  Obviously your people aren't very smart :-) As it is your go-
+ing  to  need  to educated them.  Education will increase CROP yields and also
 help with TECHNOLOGY.  see "info education".
 
                                 World Updates
@@ -152,8 +152,8 @@ more carefully about attacking you.  The CURRENT update times are:
 
 NO OTHER UPDATES ARE POSSIBLE - except at these times.  What is updated is all
 Mobility, Food Production, Shell & Factory Production, Ship Plane  and  Sector
-Efficiency,  and  EVERYTHING  that  "update"  used  to do.  (hence there is NO
-Update Command).  Everyone is updated at the SAME TIME!
+Efficiency,  and  EVERYTHING that "update" used to do.  (hence there is NO Up-
+date Command).  Everyone is updated at the SAME TIME!
 
                     Other Things That Might be of Interest
 

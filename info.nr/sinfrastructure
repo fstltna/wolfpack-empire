@@ -11,8 +11,8 @@ SYNTAX
 The  sinfrastructure  command  displays specific infrastructure information on
 some or all of the sectors you occupy.
 
-In the syntax of the census command <SECTS> is the  area  on  which  you  wish
-information, (see "info syntax").
+In the syntax of the census command <SECTS> is the area on which you wish  in-
+formation, (see "info syntax").
 
 A typical usage might be:
    [##:##] Command : sinfrastructure 0:9,0:9 ?des=m

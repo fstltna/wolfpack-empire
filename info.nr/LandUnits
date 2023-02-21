@@ -38,8 +38,8 @@
        start     Resume production and repairs
         stop     Stop production and repairs
       supply *   Cause a unit to draw supplies
-     upgrade      Update  the  tech  of  a ship/unit/plane to the current tech
-                 level
+     upgrade     Update the tech of a ship/unit/plane to the current tech lev-
+                 el
         work     Use engineers to raise sector efficiency
        xdump     Extended dump of everything under the sun
 

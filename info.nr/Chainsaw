@@ -44,8 +44,8 @@ the in-memory stuff to be current. This is still not perfect, as  when  people
 exit  incorrectly,  they  are  still shown as logged on, until they telnet and
 kill the process, or the transaction manager is restarted.
 
-Also, the init_nats function was changed. Previously, if  a  country  did  not
-receive a BTU delta when logging in, its last login time was not set.
+Also, the init_nats function was changed. Previously, if a country did not re-
+ceive a BTU delta when logging in, its last login time was not set.
 
 OPTIONS
 
@@ -148,8 +148,8 @@ NEWSUBS
 This option encompasses several small changes in sub-warfare. A new flag, sub-
 t, is added. Only ships with the sub-t flag are allowed to torpedo subs. Also,
 ships  with  depth-charge capability can now use them to their full gun range.
-Depth charges are  more  affected  by  sub  armor  value.  Torpedo  damage  is
-increased.
+Depth charges are more affected by sub armor  value.  Torpedo  damage  is  in-
+creased.
 
 OTHER-CHANGES
 
@@ -201,11 +201,11 @@ The deity can now make declaration on another country's behalf.
 
 Minesweepers now take less damage from mines (1/2 the normal amount).
 
-A  plane  unloaded  in  an ally's harbor now becomes his plane. A plane loaded
-onto an ally's ship also becomes his plane.
+A plane unloaded in an ally's harbor now becomes his plane. A plane loaded on-
+to an ally's ship also becomes his plane.
 
-Your planes may now land on an ally's  sectors  or  ships.  Once  there,  they
-become his planes.
+Your planes may now land on an ally's sectors or ships. Once there,  they  be-
+come his planes.
 
 Ships  will  fire  back  in  defense  of sectors being attacked, assaulted, or
 shelled.
@@ -227,8 +227,8 @@ tech factor to arrive at a final value.
 There is no longer a minimum maintenance cost of $1/ETU for planes and  ships.
 The new minimum is $1.
 
-The  torpedo  command is changed. Surface ships may now have the torpedo abil-
-ity, as well as subs. When surface ships torpedo, they are fired at by defend-
+The  torpedo command is changed. Surface ships may now have the torpedo abili-
+ty, as well as subs. When surface ships torpedo, they are fired at by  defend-
 ing ships BEFORE they fire their torpedos.
 
 An  "escort" flag was added for planes. Planes with the escort flag may escort
@@ -280,8 +280,8 @@ sail it more than eight, the profit rises steadily.
                 otherwise:      +7.5% * dist
 
 Another factor is the sector in which you scuttle it. If you scuttle it  in  a
-harbor  you  own,  you  get normal cash. If you scuttle it in the harbor of an
-ally, you get a 20% bonus, AND your ally gets 10% of the cash you  make  as  a
+harbor you own, you get normal cash. If you scuttle it in the harbor of an al-
+ly, you get a 20% bonus, AND your ally gets 10% of the  cash  you  make  as  a
 bonus (you still get the full amount)
 
 For example, using the numbers from above, if you sailed 15 sectors, and scut-
@@ -319,11 +319,11 @@ its mil in an assault.
 SHIPCHOPPERS
 XLIGHT
 
-These  two  flags  are  similar.  They establish new plane flags, "helo" (ship
-helicopter), and "x-light" (extra light). Each ship  is  then  rated  on  it's
-ability  to  carry  those types, independently of it's ability to carry normal
-planes. This allows deities to let non-carriers carry sams, for example, or to
-let ships carry anti-sub helicopters or transport helos.
+These  two flags are similar. They establish new plane flags, "helo" (ship he-
+licopter), and "x-light" (extra light). Each ship is then rated on it's abili-
+ty to carry those types, independently of it's ability to carry normal planes.
+This allows deities to let non-carriers carry sams, for  example,  or  to  let
+ships carry anti-sub helicopters or transport helos.
 
 ASW_PLANES
 
@@ -355,17 +355,17 @@ When this option is used, both fire and torpedo accept multiple ships/sectors.
 Each firing ship/sector may be used against a separate target, or all may fire
 together.
 
-Return  fire  is  distributed  evenly over the firing ships/sectors, with each
-defending ship/sector firing once. The spreading of  damage  also  applies  to
-subs  being  depth-charged after torping, and for torpedo boats being fired at
-prior to torping.
+Return fire is distributed evenly over the firing ships/sectors, with each de-
+fending ship/sector firing once. The spreading of damage also applies to  subs
+being  depth-charged after torping, and for torpedo boats being fired at prior
+to torping.
 
 RETREATS
 
 Each ship/fleet may be given a retreat path, and  retreat  conditions.  Condi-
 tions  are:  retreat  when  damaged  at all, retreat when torped, retreat when
-sonared, retreat when fired upon from beyond max  range,  retreat  if  bombed,
-retreat if depth-charged.
+sonared, retreat when fired upon from beyond max range, retreat if bombed, re-
+treat if depth-charged.
 
 Retreat conditions are assigned to ships, and may be assigned to entire fleets
 at once. When a ship's retreat condition is satisfied, things happen.
@@ -460,8 +460,8 @@ your build command. (see info build)
 You  may  now  give comments in the hours file. Comment lines start with a '#'
 character. (Players do not need to care about this.. it's for deities)
 
-The report command has been changed to not  include  countries  that  are  not
-active. (i.e. visitor or in sanctuary)
+The report command has been changed to not include countries that are not  ac-
+tive. (i.e. visitor or in sanctuary)
 
 The  version command now show the ship/sector/plane mobility max/gain, as well
 as the ship/plane growth constants.
@@ -474,14 +474,14 @@ Chainsaw 2.2 has some minor differences from Chainsaw 2.1.
 
 A new option, SNEAK_ATTACK is included. It can only  be  used  in  conjunction
 with  SLOW_WAR.  It allows you to attack a sector of someone you're not at war
-with. Once attacked, the  attacker  automatically  declares  war  against  the
-defender,  and  pays  $5K.   At that point, the attacker has to go through the
-normal SLOW_WAR procedure  before  attacking  again.  See  info  attack,  info
-assault.  SNEAK_ATTACKs may not be done by parachute.
+with. Once attacked, the attacker automatically declares war against  the  de-
+fender,  and pays $5K.  At that point, the attacker has to go through the nor-
+mal SLOW_WAR procedure before attacking again. See info attack, info  assault.
+SNEAK_ATTACKs may not be done by parachute.
 
-The  'list  of  commands'  command  now  puts  a 'c' in front of commands that
-require you to have a capital to use, and a '$'  in  front  of  commands  that
-require you to be non-broke for use.
+The  'list  of  commands' command now puts a 'c' in front of commands that re-
+quire you to have a capital to use, and a '$' in front of  commands  that  re-
+quire you to be non-broke for use.
 
 CHANGES.CHAINSAW.3.0
 
@@ -492,16 +492,16 @@ Chainsaw 3.0 has some major differences from Chainsaw 2.2.
 Ships that don't carry enough crew lose effic when at sea. See info build (the
 ship building section)
 
-The BUDGET option has been removed.  Budget  is  now  standard.   The  NEWSUBS
-option  has  been  removed. NEWSUBS is now standard.  The MULTIFIRE option has
-been removed. MULTIFIRE is now standard.
+The BUDGET option has been removed. Budget is now standard.  The  NEWSUBS  op-
+tion has been removed. NEWSUBS is now standard.  The MULTIFIRE option has been
+removed. MULTIFIRE is now standard.
 
 I took out the 'too much traffic for workers' thing, because it was dumb.
 
 Ships of tech 310 or better can detect mines with sonar.
 
-Conventional missiles launched from subs are  anonymous.  The  victim  is  not
-notified of the launching country's identity, and the news knows naught.
+Conventional missiles launched from subs are anonymous. The victim is not  no-
+tified of the launching country's identity, and the news knows naught.
 
 In  order to export something from a sector, you must have military control of
 the sector. In order to import something from a distribution sector, you  must
@@ -539,8 +539,8 @@ will give you a map centered around that ship. For example,
 will give you a map centered on ship 1. Lmap works similarly, except  you  can
 get a map around a land unit, and pmap gives a map around a plane.
 
-When  loading/unloading,  you  can  give  a desired level as a negative number
-instead of an amount to load/unload. For example:
+When  loading/unloading, you can give a desired level as a negative number in-
+stead of an amount to load/unload. For example:
 
    [##:##] Command : load 4 -10 food
 
@@ -563,8 +563,8 @@ mands. For example,
 will move 10 civs from 0,0 to 5,-1 via the most efficient path, the  one  that
 uses the least mobility.
 
-Ships/planes/units  now  use  lcms/hcms  as  they gain efficiency, rather than
-using them all at once. See info build for more details.
+Ships/planes/units  now use lcms/hcms as they gain efficiency, rather than us-
+ing them all at once. See info build for more details.
 
 Distribution has been changed. Each  sector  now  has  a  distribution  sector
 rather  than  a  distribution  path (during the update, the least-cost path is
@@ -586,8 +586,8 @@ Fort gun range is now (7*tech factor). Damage from fort shelling  now  depends
 on the number of guns firing. Forts get a +1 range bonus if at least 60% effi-
 cient.
 
-Sectors can cost money to designate, and may cost extra  to  build.  They  may
-also take lcms or hcms to build. Show sector build will show this.
+Sectors can cost money to designate, and may cost extra to build. They may al-
+so take lcms or hcms to build. Show sector build will show this.
 
 A  new  command,  cede, allows you to give a sector or ship to a neighbor. See
 info cede for more details.
@@ -613,11 +613,11 @@ exact details.
 
 NEW_STARVE:  when  NEW_STARVE  is enabled, the starvation ordering is changed.
 Instead of losing equal numbers of each type of population (uws,  civs,  mil),
-you  first  lose  uw's,  then  civs, then mil. As before, no more than 1/2 the
-total population of a sector can starve in one update. Example:  if  you  have
-200  uw's,  100  mil,  and 500 civilians, and no food, normally you'd have 100
-uw's, 50 mil, and 250 civs after the update. With NEW_STARVE in effect,  you'd
-have 0 uw's, 300 civilians, and 100 mil.
+you  first lose uw's, then civs, then mil. As before, no more than 1/2 the to-
+tal population of a sector can starve in one update. Example: if you have  200
+uw's,  100  mil, and 500 civilians, and no food, normally you'd have 100 uw's,
+50 mil, and 250 civs after the update. With NEW_STARVE in effect, you'd have 0
+uw's, 300 civilians, and 100 mil.
 
 NEW_WORK:  When moving civs to or from a sector with low work, the new loyalty
 and work percentage of the destination sector is computed proportionally.  For

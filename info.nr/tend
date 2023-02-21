@@ -14,9 +14,9 @@ If  you  had  cargo ship #16 which had food, and your fleet S needed food, you
 could resupply the entire fleet with 20 units of food by typing
    [##:##] Command : tend food 16 20 S
 
-Requirements are that the tending ship must be  in  the  same  sector  as  the
-tended  ships, and it must be yours, or belong to a country that considers you
-a friendly trading partner.  A positive <AMT> indicates the amount the  tender
+Requirements are that the tending ship must be in the same sector as the tend-
+ed  ships,  and  it must be yours, or belong to a country that considers you a
+friendly trading partner.  A positive <AMT> indicates the  amount  the  tender
 will  give  away, while a negative amount indicates the amount that the tender
 will try to extract from each ship. (However, you cannot  take  goods  from  a
 friendly ship by giving a negative amount)

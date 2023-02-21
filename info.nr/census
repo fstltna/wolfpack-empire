@@ -11,8 +11,8 @@ SYNTAX
 The census command displays specific information on some or all of the sectors
 you occupy.
 
-In the syntax of the census command <SECTS> is the  area  on  which  you  wish
-information, (see "info Syntax").
+In the syntax of the census command <SECTS> is the area on which you wish  in-
+formation, (see "info Syntax").
 
 A typical usage might be:
    [##:##] Command : census 0:9,0:9 ?des=m

@@ -19,8 +19,8 @@ limited to rectangular regions and you have 99 values to choose from.
 
 There are four independent territory fields terr, terr1, terr2, terr3 selected
 by  field  arguments  0, 1, 2, 3, respectively.  Deities can use an additional
-territory field dterr, selected by -1.  If  the  optional  field  argument  is
-empty, terr is assumed for mortals and dterr for deities.
+territory field dterr, selected by -1.  If the optional field argument is emp-
+ty, terr is assumed for mortals and dterr for deities.
 
    [##:##] Command : territory #1 5 1
 

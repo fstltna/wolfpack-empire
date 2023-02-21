@@ -19,8 +19,8 @@ units  are  charged proportionally higher amounts of mobility.  For example, a
 by 1%.
 
 If  the  sector  has been re-designated, the working unit will first tear down
-the old, then start working on the new effic, in the  same  way  that  sectors
-update normally.
+the old, then start working on the new effic, in the same way that sectors up-
+date normally.
 
 SEE ALSO
    show, Unit-types, LandUnits

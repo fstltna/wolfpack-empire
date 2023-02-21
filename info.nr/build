@@ -18,9 +18,9 @@ bridges.
 
 To build stuff, you generally need available work, raw materials  (e.g.  light
 and heavy construction materials, oil, radioactive materials), cash, and tech-
-nology, depending on the thing being built.  For  nukes,  you  may  also  need
-research,  depending on game configuration.  Try commands "version" and "show"
-to learn how your game is configured.
+nology, depending on the thing being built.  For nukes, you may also need  re-
+search, depending on game configuration.  Try commands "version" and "show" to
+learn how your game is configured.
 
 A sector's available work is work not used up by the  update  (building  effi-
 ciency,  working  on  things, etc).  It is shown in the output of the "census"
@@ -58,18 +58,18 @@ for maximum efficiency growth, put full crews on your newly  built  ships  and
 leave them in harbor until they reach 100%.
 
 Ships  at  sea have only their crews to make repairs.  A small crew on a large
-ship may not be able to make any repairs at  all.   (Moral:  keep  your  ships
-fully crewed in anticipation of future damage.)  Repairs at sea do not use any
+ship may not be able to make any repairs at all.  (Moral: keep your ships ful-
+ly  crewed  in  anticipation of future damage.)  Repairs at sea do not use any
 lcms or hcms, but may not push the efficiency of a ship over 80%.
 
 AIRFIELD SECTORS & BUILDING PLANES
 
 Planes are built in airfields. 10% of the materials listed by "show"  must  be
 available  at  the  time  of building.  Planes first appear at 10% efficiency.
-Then, each update, the plane will gain efficiency  and  use  up  more  of  the
-required  materials  until it reaches 100%.  A plane is not capable of leaving
-the ground until it has reached 40% efficiency.  Planes below  10%  efficiency
-are destroyed.
+Then, each update, the plane will gain efficiency and use up more of  the  re-
+quired materials until it reaches 100%.  A plane is not capable of leaving the
+ground until it has reached 40% efficiency.  Planes below 10%  efficiency  are
+destroyed.
 
 Planes will also gain efficiency in non-airport sectors, but at only 1/3rd the
 normal rate.
@@ -94,8 +94,8 @@ correct goods are available), but at 1/3rd the normal rate.
 NUCLEAR PLANT SECTORS & BUILDING NUKES
 
 Nuclear  devices  are built in nuclear plants.  All of the materials listed by
-"show" must be available at the time of  building.   New  nukes  appear  fully
-operational.
+"show" must be available at the time of building.  New nukes appear fully  op-
+erational.
 
 BUILDING BRIDGES
 

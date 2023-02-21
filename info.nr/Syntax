@@ -12,16 +12,16 @@ when you type "list"-- e.g.  "map", "move", "info", etc).
 
 The number of ARGs varies from command to command.  In  most  cases  the  ARGs
 need  not  be  supplied on the command line; any that are not supplied will be
-obtained by prompting.  The exception to this rule are  those  ARGs  that  are
-enclosed in [square brackets] in the command list.  The presence of these ARGs
+obtained by prompting.  The exception to this rule are those ARGs that are en-
+closed  in  [square brackets] in the command list.  The presence of these ARGs
 changes the way the command is carried out.
 
 Certain basic argument types recur often and are abbreviated in the  following
 ways.
 
-<TYPE>  ::=  'se',  'sh',  'l',  or  'p' for sector, ship, land unit, or plane
-   respectively.  If "sector" is not a possibility, then 's' will likely  suf-
-   fice for "ship".
+<TYPE>  ::=  'se', 'sh', 'l', or 'p' for sector, ship, land unit, or plane re-
+   spectively.  If "sector" is not a possibility, then 's' will likely suffice
+   for "ship".
 
 <CNUM/CNAME> ::= either a country number or a country name
 
@@ -52,16 +52,16 @@ ways.
    >  greater than
    #  not equal
 
-   Thus  "mob=100",  "ore#0",  "7=guns",  "civ#mil",  "des=b"  are examples of
-   legitimate conditions, (note lack of embedded spaces), and
+   Thus  "mob=100",  "ore#0", "7=guns", "civ#mil", "des=b" are examples of le-
+   gitimate conditions, (note lack of embedded spaces), and
       [##:##] Command : census -3:3,-3:3 ?des=+&gun=5&mil>civ
    will list all highways within 3 of your capital with  exactly  5  guns  and
    more military than civilians.
 
    Similarly,
       [##:##] Command : deliver f -9:9,-9:9 ?f_del=0
-   will  allow  you  to  set  up  food  delivery in all the sectors that don't
-   already have food delivery.
+   will  allow  you  to set up food delivery in all the sectors that don't al-
+   ready have food delivery.
 
    Note that "hix", "hiy", and "?cond" are all  optional.   Also,  the  entire
    "lox:hix,loy:hiy"  section may be replaced by either "#", "#0", "#1", "#2",

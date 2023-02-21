@@ -37,8 +37,8 @@
         tend *   Transfer commodities between ships
      torpedo *   Slip a torpedo to some poor sucker (from a sub or ship)
       unload *   Inverse of load (above)
-     upgrade      Update  the  tech  of  a ship/unit/plane to the current tech
-                 level
+     upgrade     Update the tech of a ship/unit/plane to the current tech lev-
+                 el
        xdump     Extended dump of everything under the sun
 
 For info on a particular topic, type "info <topic>" where <topic>  is  one  of

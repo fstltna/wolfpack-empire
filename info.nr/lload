@@ -26,10 +26,10 @@ SYNTAX
    [##:##] Command : lload <COMMODITY> <UNITS> <AMOUNT>
 
 In  the first form, the amount argument specifies the amount of the given com-
-modity you wish to load on each unit specified.   Amounts  greater  than  that
-allowed  will  be truncated to the maximum possible. Amounts less than 0 indi-
-cate that you want to make the unit/army have that amount.  If  the  unit/army
-has less than that amount, more will be loaded. If the unit/army has more than
+modity you wish to load on each unit specified.  Amounts greater than that al-
+lowed  will be truncated to the maximum possible. Amounts less than 0 indicate
+that you want to make the unit/army have that amount.  If  the  unit/army  has
+less  than  that  amount,  more will be loaded. If the unit/army has more than
 that amount, the commodity will be unloaded. For example,
 
    [##:##] Command : load food 3 -100

@@ -14,9 +14,9 @@ Stopped  sectors don't gain efficiency, don't produce anything, and don't work
 on ships, planes or units there, but otherwise function normally:  they  still
 pay tax, distribute goods and so forth.
 
-Stopping  ships,  planes  and  land units works just the same: they don't gain
-efficiency, they don't produce anything (if applicable), and they  don't  work
-on embarked land units or planes.
+Stopping ships, planes and land units works just the same: they don't gain ef-
+ficiency, they don't produce anything (if applicable), and they don't work  on
+embarked land units or planes.
 
 Stopping nukes doesn't do anything in particular, right now.
 

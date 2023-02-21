@@ -41,13 +41,13 @@ Artillery units less than 40% efficient will not fire.
 Planes flying missions other than air defense will  be  intercepted  normally.
 (i.e. if you fly over enemy territory, you'll get intercepted.
 
-Planes  assigned  to  missions  other  than  air defense are "NOT" eligible to
-intercept normally. For example, if a fighter is  assigned  to  an  escort  or
-interdiction  or support mission, it will "NOT" rise to intercept an intruding
-enemy plane. (planes on air-defense missions will intercept planes  flying  in
-their op-area, in accordance with the air-defense mission, but will not inter-
-cept one outside their op-area, even if it is within their  normal  range.  Be
-sure you understand this before using plane missions.)
+Planes  assigned  to missions other than air defense are "NOT" eligible to in-
+tercept normally. For example, if a fighter is assigned to an escort or inter-
+diction or support mission, it will "NOT" rise to intercept an intruding enemy
+plane. (planes on air-defense missions will intercept planes flying  in  their
+op-area,  in  accordance  with the air-defense mission, but will not intercept
+one outside their op-area, even if it is within their normal  range.  Be  sure
+you understand this before using plane missions.)
 
 Planes armed with nukes cannot be assigned missions.
 
@@ -70,8 +70,8 @@ flying range for planes, changeable with range command).  The unit will  exert
 influence in a radius around the op sector.  By default, the radius will be as
 large as possible, i.e. the biggest range so that  the  unit/ship/plane  could
 legally act there.)  For example, a ship with a range of 4 could designate any
-sector up to 4 away from it as it's  op  sector,  and  would  affect  anything
-within 4 of it's op-sector, provided it was also within 4 of the ship.
+sector up to 4 away from it as it's op sector, and would affect anything with-
+in 4 of it's op-sector, provided it was also within 4 of the ship.
 
 If a smaller radius is desired, it may be specified on the command line. If it
 is not specified, it will not be prompted for.
@@ -120,12 +120,12 @@ that mission if done by the player.
 
 A unit stays on its mission until you cancel it, OR the unit acts. Any type of
 action  not a part of a mission is sufficient, so marching, navigating, trans-
-porting, flying, reconing,  bombing,  mining,  paratrooping,  being  attacked,
-being  paratrooped  on,  retreating,  etc,  will  all cause a unit to lose its
-mission status, but the unit could bomb/shell/etc AS PART OF  A  MISSION,  and
-still  retain its mission status.  Also, land units with a reserve mission can
-react to a threatened sector and fight, and  (assuming  they  win)  return  to
-their original sector without losing their reserve status.
+porting, flying, reconing, bombing, mining, paratrooping, being attacked,  be-
+ing paratrooped on, retreating, etc, will all cause a unit to lose its mission
+status, but the unit could bomb/shell/etc AS PART OF A MISSION, and still  re-
+tain its mission status.  Also, land units with a reserve mission can react to
+a threatened sector and fight, and (assuming they win) return to their  origi-
+nal sector without losing their reserve status.
 
 Note that fortifying a unit does not affect it's mission status.
 
@@ -155,9 +155,9 @@ highway,  and  you  had  an artillery unit and a light bomber interdicting the
 highway sector, the land unit would fire and the bomber would  fly  there  and
 bomb, and the total damage would be applied to the plane being transported. If
 it was still alive,  it  might  be  moved  to  another  sector,  there  to  be
-bombed/shelled  again  (assuming  the  new  sector was also in both units' op-
-areas) If a different unit later moved in, it would  be  shelled/bombed.  This
-happens as long as the interdicting units have mobility left.
+bombed/shelled  again  (assuming the new sector was also in both units' op-ar-
+eas) If a different unit later moved in, it would be shelled/bombed. This hap-
+pens as long as the interdicting units have mobility left.
 
 Damage  done  is divided amongst all units/ships/commodities moving. For exam-
 ple, if 6 ships were moving, and the interdiction mission  did  18  points  of
@@ -170,8 +170,8 @@ a chance of escaping the damage, depending on the visibility of the sub.
 Only  planes  with the 'tactical' ability can fly interdiction missions.  Only
 planes with 'ASW' ability will fly vs. subs. Planes with  'ASW'  ability  will
 not fly interdiction vs. other types of ships/planes/units/commods.  Subs have
-a chance of sneaking through ASW air cover  unnoticed,  and  ASW  planes  will
-respond  to any non-Friendly sub movement.  Depending on the visibility of the
+a chance of sneaking through ASW air cover unnoticed, and ASW planes will  re-
+spond  to  any  non-Friendly sub movement.  Depending on the visibility of the
 sub, the ASW plane may or may not identify the type and/or owner of the sub.
 
 Interdiction has no effect on flying  planes.  Interdiction  does  not  affect
@@ -179,8 +179,8 @@ loading/unloading.  It will also cause some damage to the sector that the com-
 modities were moving into.
 
 Note also that forts will fire at enemy ships coming within range.  You  don't
-have  to  set  anything  for  this, it happens automatically. (Forts firing at
-enemy ships naving happens before ships/planes/units interdicting ships, so if
+have to set anything for this, it happens automatically. (Forts firing at ene-
+my ships naving happens before ships/planes/units interdicting  ships,  so  if
 the enemy is using an area a lot, a fort will hurt him without costing you mob
 from planes)
 
@@ -199,10 +199,10 @@ is attacked, the plane will attempt to fly to that sector and give ground sup-
 port, if it has support or defensive support orders.
 
 If the plane's owner (or an ally of the plane's owner, if the ally is also  at
-war  with  the  country  attacked)  attacks  a  sector in that plane's op-area
-belonging to a country that the plane owner is at war  with,  the  plane  will
-also  attempt  to  fly  there  and give offensive support if it has support or
-offensive support orders.
+war  with  the  country attacked) attacks a sector in that plane's op-area be-
+longing to a country that the plane owner is at war with, the plane will  also
+attempt to fly there and give offensive support if it has support or offensive
+support orders.
 
 (see info attack for more information on how support works in land combat)
 
@@ -210,13 +210,13 @@ Only planes with the 'tactical' ability can fly support missions.
 
 ESCORT MISSIONS (planes only)
 
-When given an escort mission,  an  escort  or  intercept  capable  plane  will
-attempt  to  escort  any  plane flying a support or interdict mission from the
-same airport into its op-area.  If even 1 plane flies a support  or  interdic-
-tion  mission  from an airport, all planes on escort duty at that airport will
-attempt to escort. Planes with escort duty will NOT attempt to  escort  planes
-taking  off  from  other  airports,  so it pays to put your bombing planes and
-escorting planes together.
+When given an escort mission, an escort or intercept capable  plane  will  at-
+tempt  to escort any plane flying a support or interdict mission from the same
+airport into its op-area.  If even 1 plane flies  a  support  or  interdiction
+mission  from  an  airport, all planes on escort duty at that airport will at-
+tempt to escort. Planes with escort duty will NOT  attempt  to  escort  planes
+taking  off from other airports, so it pays to put your bombing planes and es-
+corting planes together.
 
 Only planes with the 'escort' or 'intercept' abilities  can  fly  escort  mis-
 sions.
@@ -232,8 +232,8 @@ Example  Groonland wants to run a recon flight over Bannannarama. Joeland  has
 a jet fighter with an air defense mission and an op-area covering part of Ban-
 nannarama. The 'j' sector belongs to Joeland, and is the base for the fighter.
 The 'b' sectors belong to Bannannarama, which has 1 fighter in the center sec-
-tor. The 'g' sector belongs  to  Groonland.  Assume  that  all  countries  are
-mutually at war.
+tor. The 'g' sector belongs to Groonland. Assume that all countries are  mutu-
+ally at war.
 
 The Joeland fighter's op area is centered on the 'B', radius 2.
 
@@ -243,8 +243,8 @@ The Joeland fighter's op area is centered on the 'B', radius 2.
      . . . . . . . . . . . b b . . . .
     . . . . . . . . . g . . . . . . .
 
-The  Groonland  player  enters  a  path  of  'uujjjbgbggh'.  The first sectors
-entered is sea, and is not in the Joeland aircraft's op-area, so nothing  hap-
+The  Groonland  player  enters a path of 'uujjjbgbggh'.  The first sectors en-
+tered is sea, and is not in the Joeland aircraft's op-area,  so  nothing  hap-
 pens.
 
 Next, the Groonland plane enters the sector adjacent to Bannannarama.  This is
@@ -252,26 +252,25 @@ within the Joeland aircraft's op-area, so it flies to intercept.  It takes the
 shortest path there, and fights the Groonland plane.  Let's say that both take
 20 points of damage, and neither aborts.
 
-Next, the Groonland plane overflies a Bannannarama  sector.   It  gets  inter-
-cepted by Joeland's fighter, because the sector is in its op-area, and by Ban-
-nannarama's fighter, because the  sector  belongs  to  Bannannarama.   And  so
-forth.
+Next, the Groonland plane overflies a Bannannarama sector.  It gets intercept-
+ed  by Joeland's fighter, because the sector is in its op-area, and by Bannan-
+narama's fighter, because the sector belongs to Bannannarama.  And so forth.
 
 A good use of this mission is to provide a wider CAP around a carrier, so that
-enemy planes get intercepted several times on the way to the  carrier,  rather
+enemy  planes  get intercepted several times on the way to the carrier, rather
 than just once, in the carrier's sector.
 
-Another  use  is to provide air-cover for an ally who has temporarily lost his
+Another use is to provide air-cover for an ally who has temporarily  lost  his
 planes.
 
 RESERVE MISSIONS (land units only)
 
-A land unit on a reserve mission may react to enemy  attacks  within  its  op-
+A  land  unit  on  a reserve mission may react to enemy attacks within its op-
 area.  See info "Attacking" for more on land unit reactions.
 
 Note that units with a reserve mission retain this status even when they react
 to a threatened sector and return. This is an exception to the normal rules on
-losing  your  mission  status. If, however, the land unit is forced to retreat
+losing your mission status. If, however, the land unit is  forced  to  retreat
 from the combat (see land combat for details), it DOES lose its status.
 
 Note: information gained from planes flying missions is automatically added to

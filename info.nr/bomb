@@ -30,8 +30,8 @@ age  all commodities in the entire target sector, while not damaging any ships
 resident (similar to the "fire" command).
 
 Nuclear bombs can only be used for strategic bombing.  They damage  everything
-in  the  sector;  planes,  ships,  and commodities.  Only missiles in hardened
-silos can avoid damage from a nuclear attack.
+in  the sector; planes, ships, and commodities.  Only missiles in hardened si-
+los can avoid damage from a nuclear attack.
 
 <SECT> represents an assembly point, where all of the planes  in  the  mission
 meet  before  proceeding  on to the target sector.  The assembly point must be
@@ -71,8 +71,8 @@ Planes have differing air-to-air combat abilities, differing ranges, and load-
 carrying  capacities.   Some airplanes don't need runways, but can operate out
 of any sector which has fuel in it.
 
-When you pin-bomb a land unit, it will fire flak  at  the  plane  bombing  it,
-unless it has an AA fire rating of 0.
+When you pin-bomb a land unit, it will fire flak at the plane bombing it,  un-
+less it has an AA fire rating of 0.
 
 In  the  case of pinpoint bombing, see "info Hitchance" for the formula deter-
 mining whether a plane hits its target.
@@ -81,6 +81,6 @@ Note that a plane must be at least 40%  efficient  before  it  can  leave  the
 ground.
 
 SEE ALSO
-   Plane-types,  build,  fly, paradrop, drop, recon, relations, Combat, Mobil-
-ity, Damage, Planes
+   Plane-types,  build, fly, paradrop, drop, recon, relations, Combat, Mobili-
+ty, Damage, Planes
 

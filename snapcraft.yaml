@@ -18,6 +18,8 @@ parts:
     # See 'snapcraft plugins'
     plugin: dump
     source: .
+    build-packages: [libtinfo-dev, libreadline-dev, gawk]
+    stage-packages: [libtinfo-dev, libreadline-dev, gawk]
     organize:
       empire: build/
       empire.1: man/man1/

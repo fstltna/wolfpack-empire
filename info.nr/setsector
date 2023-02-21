@@ -8,8 +8,8 @@ Level: Obsolete
 SYNTAX
    [##:##] Command : setsector <TYPE> <SECTS> <NUM>
 
-This  command  is  obsolete  and will go away in a future version.  Use "edit"
-instead.
+This command is obsolete and will go away in a future version.  Use "edit" in-
+stead.
 
 SEE ALSO
    give, edit, Deity

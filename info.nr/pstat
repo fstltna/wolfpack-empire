@@ -16,8 +16,8 @@ modifiers are on a per-plane basis.
 The <PLANE> and <SECTS> arguments are provided in case you only wish  to  look
 at one plane or all planes within a given area.
 
-pstat  expects  some  argument.   To  see all planes, use the argument '*', or
-enter "pstat *".
+pstat  expects some argument.  To see all planes, use the argument '*', or en-
+ter "pstat *".
    [##:##] Command : pstat *
 
    pln# plane-type                x,y    eff  tech att def acc ran load fuel
@@ -41,6 +41,6 @@ The report format contains the following fields:
     fuel  the amount of fuel the plane takes per flight
 
 SEE ALSO
-   plane, upgrade, arm, bomb,  build,  drop,  fly,  launch,  paradrop,  recon,
-satellite, scrap, wingadd, Planes
+   plane, upgrade, arm, bomb, build, drop, fly, launch, paradrop, recon,  sat-
+ellite, scrap, wingadd, Planes
 

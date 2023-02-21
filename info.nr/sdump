@@ -14,9 +14,9 @@ printed on one very long line.  Fields are separated by a single space.
 
 This command is designed to be used for input to an empire tool such as "ve".
 
-In  the  syntax  of  the sdump command <SHIPS> are the ships on which you wish
-information, [<fields>] are the fields you wish to dump.   If  no  fields  are
-specified, all fields are printed.  (see "info Syntax").
+In the syntax of the sdump command <SHIPS> are the ships on which you wish in-
+formation, [<fields>] are the fields you wish to dump.  If no fields are spec-
+ified, all fields are printed.  (see "info Syntax").
 
 An sdump command lists all selected ships headed by:
 

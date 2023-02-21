@@ -37,8 +37,8 @@ matic sightings.
 
    [##:##] Command : toggle sonar
 Will toggle the "sonar" flag (default on) for your country.  When sonar is on,
-then  you  will  receive  telegrams  whenever any of your sonar-equipped ships
-detect a sonar ping.
+then  you will receive telegrams whenever any of your sonar-equipped ships de-
+tect a sonar ping.
 
    [##:##] Command : toggle techlists
 Will toggle the "techlists" flag (default off) for your country.   When  tech-

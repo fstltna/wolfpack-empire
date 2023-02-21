@@ -198,8 +198,8 @@ lnd  The number of land units the ship can carry.  No ship can  carry  'heavy'
 pln  The number of 'light' planes the ship can carry.
 hel  The  number of helicopters the ship can carry. (If the SHIPCHOPPER option
      is enabled)
-xpl  The number of extra-light planes the  ship  can  carry.  (If  the  XLIGHT
-     option is enabled)
+xpl  The number of extra-light planes the ship can carry. (If the  XLIGHT  op-
+     tion is enabled)
 
 Each ship can carry a certain amount of products and has certain capabilities.
 These are listed under the cargoes & abilities section.  The cargoes give  the
@@ -218,8 +218,8 @@ number of each product that can be carried.  The abilities are as follows.
        sweep  The vessel can sweep the sector for mines and recover them
          sub  The vessel is a submarine
         land  The vessel can be used as a landing craft. (see info assault)
-   semi-land  The  vessel  can  be  used  as  a  semi-landing craft. (see info
-              assault)
+   semi-land  The  vessel  can  be used as a semi-landing craft. (see info as-
+              sault)
     sub-torp  The vessel can torpedo submarines
        trade  The vessel is a trade ship.
       supply  The vessel can supply other units.  Unless the vessel is a  sub-

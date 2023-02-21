@@ -16,8 +16,8 @@ somebody else.
 The <SHIP/FLEET> and <SECTS> arguments are provided in case you only  wish  to
 look at one ship or one fleet or all ships within a given area.
 
-Payoff  expects  an  argument.   To  see every trade ship you own, give it the
-argument '*', or type "ship *".
+Payoff  expects an argument.  To see every trade ship you own, give it the ar-
+gument '*', or type "ship *".
 
 The report format contains the following fields:
 

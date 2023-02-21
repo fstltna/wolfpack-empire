@@ -13,8 +13,8 @@ larly helpful in planning defense strategies.
 
 Normally, the last saved power report is shown.  The optional arguments  "new"
 and "update" request a new power report based on up-to-date information.  This
-costs 10 BTUs.  The new report is saved for  use  by  future  power  commands,
-except when a deity uses "update".  This lets deities examine up-to-date power
+costs 10 BTUs.  The new report is saved for use by future power commands,  ex-
+cept  when  a deity uses "update".  This lets deities examine up-to-date power
 reports without affecting what players get to see.
 
 If option AUTO_POWER is enabled, the command doesn't let you  save  new  power

@@ -24,8 +24,8 @@ ject  that  you  chose.  Note that Subjects always start with a capital letter
 
 To get info on the syntax of an Empire command, type:
    [##:##] Command : info command
-where "command" is the command you're interested in.   Note  that  info  about
-Empire command syntax is always specified lower-case.
+where "command" is the command you're interested in.  Note that info about Em-
+pire command syntax is always specified lower-case.
 
 To get info about some Empire topic, type:
    [##:##] Command : info Topic

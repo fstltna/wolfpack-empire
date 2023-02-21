@@ -16,8 +16,8 @@ Note  that  missiles  always fly at double range (since they don't need to fly
 back), so you should cut the desired range in half before using the range com-
 mand.
 
-For  example,  if  plane  1  were a plane and you wanted to limit its reaction
-radius to 6, then you would type:
+For  example, if plane 1 were a plane and you wanted to limit its reaction ra-
+dius to 6, then you would type:
    [##:##] Command : range 1 6
 and if plane 2 were a missile and you wanted to limit its reaction  radius  to
 6, then you would type:

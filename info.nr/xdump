@@ -11,9 +11,9 @@ SYNTAX
 SYNTAX
    [##:##] Command : xdump meta <TYPE|NUMBER>
 
-The  xdump  command  displays  information  on game configuration and state in
-machine readable format.  It is intended for use by clients and  tools.   This
-info page gives an overview; see doc/xdump in the source distribution for com-
+The  xdump command displays information on game configuration and state in ma-
+chine readable format.  It is intended for use by clients and tools.  This in-
+fo  page  gives an overview; see doc/xdump in the source distribution for com-
 plete documentation.
 
 Game configuration and state consists of a number of tables or  files.   xdump

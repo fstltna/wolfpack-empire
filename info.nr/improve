@@ -21,6 +21,6 @@ Whenever you tear down a sector, the infrastructure is left in tact.  The only
 way that infrastructure goes down is when the sector takes damage.
 
 SEE ALSO
-   sinfrastructure,  census,  commodity,  resource,  Sectors,  Infrastructure,
-Mobility, Commodities
+   sinfrastructure,  census, commodity, resource, Sectors, Infrastructure, Mo-
+bility, Commodities
 

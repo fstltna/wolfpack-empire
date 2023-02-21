@@ -22,8 +22,8 @@ deity.
 Note  that this means that if you attack a sector and do not move in, you will
 not gain possession of it. If there are civilians in the  sector,  the  sector
 will  revert back to the original owner. If there are no civilians in the sec-
-tor (and no mil or units, because you  just  killed  them),  the  sector  will
-revert back to the deity.
+tor (and no mil or units, because you just killed them), the sector  will  re-
+vert back to the deity.
 
 Similarly, if you abandon a sector, it'll revert immediately.
 

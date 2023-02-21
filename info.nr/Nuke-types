@@ -5,14 +5,14 @@ NAME
 
 Level: Expert
 
-There  are  two  different  types of nuclear devices in Empire: fission bombs,
-fusion bombs.  Both fission and fusion bombs perform  similarly,  with  fusion
+There are two different types of nuclear devices in Empire: fission bombs, fu-
+sion bombs.  Both fission and fusion  bombs  perform  similarly,  with  fusion
 bombs giving "more bang for the buck".
 
 In  general,  the only way to avoid damage by a nuclear detonation is to avoid
-the area prior to and during  actual  detonation.   "Hardening"  missiles  (in
-silos)  is  the only exception, and even that cannot protect from a direct hit
-by the larger nuclear devices.
+the area prior to and during actual detonation.  "Hardening" missiles (in  si-
+los)  is the only exception, and even that cannot protect from a direct hit by
+the larger nuclear devices.
 
 The details of the nuclear devices present in Empire can  be  seen  using  the
 show command.  The meaning of the fields are as follows:
@@ -28,8 +28,8 @@ show command.  The meaning of the fields are as follows:
         $  The cost of the nuke to construct.
      blst  The blast type of the nuke
       dam  The damage rating of the nuke
-      lbs  the  weight  of  the  warhead,  limiting  missile and plane nuclear
-           device carrying capacity.
+      lbs  the  weight  of the warhead, limiting missile and plane nuclear de-
+           vice carrying capacity.
 abilities  Special abilties, if any
 
 The abilities are as follows:
@@ -54,9 +54,9 @@ As a guide (these numbers are subject to change):
    50kt  fission    3 100   6  300   0 $  25000
 
 The larger the megatonnage, the more damage done by the weapon.   Effects  (as
-in  the  real  world)  can  only  be  determined  by experimentation, although
-research suggests that radioactivity left behind by  nuclear  detonations  may
-have lasting effects.
+in  the  real  world)  can only be determined by experimentation, although re-
+search suggests that radioactivity left behind by nuclear detonations may have
+lasting effects.
 
 SEE ALSO
    launch, fly, build, transport, show, Planes, Nukes, Fallout

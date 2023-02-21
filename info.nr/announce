@@ -9,8 +9,8 @@ SYNTAX
    [##:##] Command : announce
 
 The announce command is a variant of the telegram command.  It sends your mes-
-sage to all of the players in the game.   This  convenient  service  may  cost
-money to provide, depending on your deity.
+sage to all of the players in the game.  This convenient service may cost mon-
+ey to provide, depending on your deity.
 
 For example:
    [##:##] Command : announce

@@ -17,8 +17,8 @@ pile designation.  This character can be chosen from the set of upper or lower
 case a-z and tilde (~).  The pseudo-stockpile  specification  tilde  specifies
 all nukes not currently in any stockpile.
 
-The  specification  of  nukes,  <NUKE/STOCKPILE>, can have one of several syn-
-taxes:
+The  specification of nukes, <NUKE/STOCKPILE>, can have one of several syntax-
+es:
 
    example     meaning
    -------     -------

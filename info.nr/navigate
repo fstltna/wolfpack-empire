@@ -53,8 +53,8 @@ may  also  give  a ship number or fleet or group of ships on the same line: "r
 The "lookout" and "sonar" commands work in the same way as radar.
 
 The "map" command will give you a map surrounding the  current  position.   By
-default,  it  will  be  around  the  flagship.  You can also supply additional
-parameters:
+default,  it  will be around the flagship.  You can also supply additional pa-
+rameters:
    [##:##] Command : <32.3: g 6,2>M 3 ls
 
 is equivalent to a "smap" command. like this:
@@ -62,8 +62,8 @@ is equivalent to a "smap" command. like this:
 The "bmap" command works in the same way, it is equivalent to a  "sbmap"  com-
 mand.
 
-The  "flagship"  command  will  the  change the flagship.  By default, it will
-select next ship in the list, but you may also specify a flagship.
+The  "flagship" command will the change the flagship.  By default, it will se-
+lect next ship in the list, but you may also specify a flagship.
 
 The "drop" command will drop mines using ships with mine capability.  You  can
 specify  the  ship  number  or  fleet or groups of ships and the number of sea
@@ -123,9 +123,9 @@ normal damage from mines.
 Also, note that some things may affect you while you are moving. Forts belong-
 ing to hostile countries will fire at you when you come within range.  Hostile
 land/sea/air  units  may  fire  at/bomb your ships, if they're on interdiction
-missions (see "info mission").  The chance of  bombs  hitting  your  ships  is
-determined  by  the  ship that is easiest to hit (see "bomb" for the chance of
-hitting).  Any damage incurred is divided evenly among the navigating ships.
+missions (see "info mission").  The chance of bombs hitting your ships is  de-
+termined by the ship that is easiest to hit (see "bomb" for the chance of hit-
+ting).  Any damage incurred is divided evenly among the navigating ships.
 
 If your enemy has a stack of missiles on interdiction mission, then they  will
 automatically  fire  one  after another until all of your "valuable" ships are

@@ -8,8 +8,8 @@ Level: Expert
 SYNTAX
    [##:##] Command : satellite <PLANE> [<se|sh|l> [?cond&cond&...]]
 
-The  satellite  command  is  how  you get information from your satellites.  A
-satellite must be in orbit (launched) before it will begin transmitting.   The
+The satellite command is how you get information from your satellites.  A sat-
+ellite must be in orbit (launched) before it  will  begin  transmitting.   The
 type of information you get from a satellite depends on what type of satellite
 it is.
 

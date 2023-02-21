@@ -38,21 +38,21 @@ will be intercepted by 2 (if available), 2 by 3, 3 by 4, etc. The highest num-
 bered  planes  intercept  first. Incoming missiles will only be intercepted by
 ABMs
 
-Once the roster of attackers  &  interceptors  is  determined,  attackers  and
-interceptors  dogfight.  First escorts & interceptors fight, then planes being
-escorted & surviving non-aborted interceptors.
+Once the roster of attackers & interceptors is determined, attackers  and  in-
+terceptors dogfight. First escorts & interceptors fight, then planes being es-
+corted & surviving non-aborted interceptors.
 
 First, an attacker and a defender are chosen, then each  plane  on  each  list
 fights once.
 
 Combat values
 
-The  attacker's  combat  value  is  calculated  by adding up his planes attack
-value, and modifying it for efficiency, bomb-load,  and  stealth.  The  attack
-value  of  the plane is multiplied times the plane's efficiency, but cannot go
-below 1/2 of the plane-type's base value (as shown by show plane stats).   (If
-the  plane's  attack  value  is 0, the defensive value is used instead, with a
-minimum of 1/2 the plane- type's defensive value)
+The  attacker's combat value is calculated by adding up his planes attack val-
+ue, and modifying it for efficiency, bomb-load, and stealth. The attack  value
+of  the  plane is multiplied times the plane's efficiency, but cannot go below
+1/2 of the plane-type's base value (as shown by show plane  stats).   (If  the
+plane's attack value is 0, the defensive value is used instead, with a minimum
+of 1/2 the plane- type's defensive value)
 
 Two is subtracted if the attacking plane is carrying bombs.
 
@@ -83,8 +83,8 @@ Example
 
 Suppose that a fighter 2 (30% efficient, tech 154, attack value 7) is conduct-
 ing  a  recon  mission.  As  it enters an enemy controlled sector, a fighter 1
-(100% efficient, tech 131, defense  value  4)  rises  up  to  fight  it.   The
-attacker's combat value is calculated:
+(100% efficient, tech 131, defense value 4) rises up to fight it.  The attack-
+er's combat value is calculated:
 
    1) 7 * (30/100) = 2.1 = 2
 

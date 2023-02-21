@@ -11,14 +11,14 @@ SYNTAX
 The  telegram  command  allows communication to take place between representa-
 tives.  Currently you are given only 1024 characters per telegram.
 
-The <CNUM/CNAME> argument is either  the  number  or  name  of  the  recipient
-nation.  You  may  specify as many recipients on the command line as you wish.
+The <CNUM/CNAME> argument is either the number or name of  the  recipient  na-
+tion.  You  may  specify  as  many recipients on the command line as you wish.
 Telegrams sent to country #0 appear as prayers, (favors are best  obtained  in
 this manner.)
 
 While entering your telegram the system tells you how many characters you have
-left.  You end the telegram by entering a line  with  a  '.'   on  a  line  by
-itself. A line containing only '~q' will abort the telegram.
+left.  You end the telegram by entering a line with a '.'  on a  line  by  it-
+self. A line containing only '~q' will abort the telegram.
 
 For example:
    [##:##] Command : tel 7 8

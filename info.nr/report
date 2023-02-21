@@ -9,8 +9,8 @@ SYNTAX
    [##:##] Command : report <NATS>
 
 The  report command displays a list of nations in <NATS>.  It shows their sta-
-tus (in-flux, visitor, active, etc),  and  their  estimated  tech,  education,
-research and happiness levels.
+tus (in-flux, visitor, active, etc), and their estimated tech, education,  re-
+search and happiness levels.
 
 If  <NATS>  is  a  country name or number, it will only display information on
 that country; if <NATS> is * then information on all countries will be listed.

@@ -21,8 +21,8 @@ An  example of using deliver in addition to distribute is where you may have a
 mine which uses distribute to get its food from a warehouse, but uses  deliver
 to export its iron to the adjacent hcm factory.
 
-Deliver  may  be  used  to  extra-fine  tune a distribution network.  In fact,
-deliver can greatly improve the performance of a distribution network if  used
+Deliver  may  be used to extra-fine tune a distribution network.  In fact, de-
+liver can greatly improve the performance of a distribution  network  if  used
 properly.
 
 If  'q' is specified rather than a threshold, then the delivery directions and
@@ -56,8 +56,8 @@ The  census and commodity reports will indicate deliveries by the same charac-
 ters used to specify them in this command.
 
 If, during an update, the destination sector is not owned by you, the  message
-"delivery  walkout  between  x,y  &  x,y"  will be printed and nothing will be
-delivered.
+"delivery  walkout  between x,y & x,y" will be printed and nothing will be de-
+livered.
 
 Delivery routes may also be mapped out with the "route" command.
 

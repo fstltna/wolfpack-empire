@@ -10,8 +10,8 @@ SYNTAX
 
 The repay command is used to repay loans from other countries.
 
-The  <LOAN>  argument  is  the  number of the loan you are repaying and if not
-included on the command line it will be solicited by the program.
+The  <LOAN> argument is the number of the loan you are repaying and if not in-
+cluded on the command line it will be solicited by the program.
 
 You can repay all or part of the loan with this  command;  however  beware  of
 letting  the  loan become overdue -- the lender may decide to force collection

@@ -12,8 +12,8 @@ be enlisted into the army, navy and air force.
 
 The willingness of the civilian population to work is initially 100%  --  that
 is,  all  of  the  people are working. In the event that the sector starves or
-falls victim  to  revolutionary  subversion,  the  work  of  the  sector  will
-decrease.  This will be shown by the work % decreasing. During the update, the
+falls victim to revolutionary subversion, the work  of  the  sector  will  de-
+crease.  This  will  be shown by the work % decreasing. During the update, the
 work % is influenced by the loyalty of the sector.
 
 If people starve in a sector, the amount of work they do drops to  0  (because
@@ -23,8 +23,8 @@ The loyalty of a sector is a hidden value, which represents how loyal the cit-
 izens in the sector are to your country. Initially the disloyalty is set to 0.
 When  a sector is captured the disloyalty is set to 50. Besides from influenc-
 ing the work % of a sector, the loyalty influences the chances on revolts, che
-in  general  and  whether  civilians  will  report to your army when enlisting
-reserves. Loyalty changes during the update by happiness or lack thereof. When
+in  general  and whether civilians will report to your army when enlisting re-
+serves. Loyalty changes during the update by happiness or lack  thereof.  When
 retaking  a sector you are the old owner of, the disloyalty in the sector will
 be 0 again. If the people in the sector had to fight for it  themselves  in  a
 revolt,  some  disloyalty  will remain. If the occupation force of a sector is

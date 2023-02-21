@@ -9,9 +9,9 @@ SYNTAX
    [##:##] Command : sabotage <UNITS>
 
 The  "sabotage"  command is used to blow up commodities and cause havoc in the
-sector the spy is in.  Spies don't check relations and  can  cause  damage  to
-enemies  and  allies.   Sabotage  can only be done by spy units.  The spy must
-have a shell to make an attempt.
+sector the spy is in.  Spies don't check relations and can cause damage to en-
+emies  and allies.  Sabotage can only be done by spy units.  The spy must have
+a shell to make an attempt.
 
 Terrorizing your neighbors is dangerous work.  Spies can be caught or die dur-
 ing a sabotage attempt.

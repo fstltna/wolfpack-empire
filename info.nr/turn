@@ -8,10 +8,10 @@ Level: Expert
 SYNTAX
    [##:##] Command : turn <on|off|motd>
 
-"turn  off"  turns  the  game  off:  mortal  players can't log in, and mortals
-already logged will be booted at the next command prompt.   The  command  lets
-you  enter  a message to the players explaining the downtime.  Updates are not
-disabled.
+"turn  off"  turns  the game off: mortal players can't log in, and mortals al-
+ready logged will be booted at the next command prompt.  The command lets  you
+enter  a message to the players explaining the downtime.  Updates are not dis-
+abled.
 
 "turn on" reverts the effect of "turn off".
 

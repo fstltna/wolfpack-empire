@@ -45,8 +45,8 @@ a set of conditions that determine when the fleet/ship  will  retreat,  and  a
 path that the fleet/ship will follow. When a condition is met for a particular
 ship, the "as flt?" field is checked. If it is Yes, then every  ship  in  that
 fleet  with  fleet  retreat orders retreats along the specified path. If it is
-no, then the retreat orders apply to  that  ship  only,  and  only  that  ship
-retreats.
+no, then the retreat orders apply to that ship only, and only  that  ship  re-
+treats.
 
 When  a  ship is added to a fleet, it is given the retreat orders of the first
 ship in that fleet that has fleet retreat orders and is in the same sector, if

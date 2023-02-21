@@ -38,12 +38,12 @@ PASSIVE SONAR
 This is more subtle.  Passive sonar is a ship's ability to hear sounds, mainly
 active  sonar  pings.  When a ship pings you with active sonar, you can detect
 that ping.  If a ship with sonar gets pinged, that country receives a telegram
-saying   "Sonar   ping   from  x,y  detected  by  ship  Z!"   In  its  current
-implementation, passive sonar is the ability to detect a ping.
+saying  "Sonar  ping from x,y detected by ship Z!"  In its current implementa-
+tion, passive sonar is the ability to detect a ping.
 
-When a ship emits a ping, that ping has  to  travel  out  to  a  target  ship,
-reflect  off  of  it, and then return to its source.  So, in order to detect a
-ship X sectors away, a sonar ping must be able to travel 2X sectors - from the
+When a ship emits a ping, that ping has to travel out to a  target  ship,  re-
+flect off of it, and then return to its source.  So, in order to detect a ship
+X sectors away, a sonar ping must be able to travel  2X  sectors  -  from  the
 source  to  the  target, and back to the source.  So, if a ship can use active
 sonar to detect ships X sectors away, passive sonar can detect  active  sonars
 from  2X  sectors  away.   So the range at which you can detect sonar pings is

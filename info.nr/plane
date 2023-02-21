@@ -29,11 +29,11 @@ The report format contains the following fields:
     tech  the tech level at which it was created,
    range  and the range (in sectors) it can fly in one sortie,
    carry  the ship or land unit the carrying the plane, if any,
- special  shows  "orbit"  or  "geosync"  for  satellites  in (geo-synchronous)
-          orbit, else nuclear armament  type  and  programming  ("A"  for  air
-          burst, "G" for ground burst; see info "arm").
+ special  shows  "orbit"  or "geosync" for satellites in (geo-synchronous) or-
+          bit, else nuclear armament type and programming ("A" for air  burst,
+          "G" for ground burst; see info "arm").
 
 SEE ALSO
-   pstat,  upgrade,  arm,  bomb,  build,  drop,  fly, launch, paradrop, recon,
-satellite, scrap, wingadd, Planes
+   pstat,  upgrade, arm, bomb, build, drop, fly, launch, paradrop, recon, sat-
+ellite, scrap, wingadd, Planes
 

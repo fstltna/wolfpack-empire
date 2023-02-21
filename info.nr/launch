@@ -46,11 +46,11 @@ In the case of non-marine tactical missiles, if there  are  any  HOSTILE  ABMs
 within range of the target sector, then two of them will fire in an attempt to
 intercept the incoming missile.
 
-Similarly, two AT_WAR a-sat's will attempt to  intercept  any  satellites  you
-attempt  to  launch within their range.  Also, if the sector you are launching
+Similarly, two AT_WAR a-sat's will attempt to intercept any satellites you at-
+tempt  to  launch  within  their range.  Also, if the sector you are launching
 your satellite at is owned by a non-allied country, then they will get a tele-
-gram  informing  them  of  the  positioning  of  the satellite.  See below for
-details of a satellite's orbit path.
+gram  informing  them  of the positioning of the satellite.  See below for de-
+tails of a satellite's orbit path.
 
 When launching missiles, there is a % chance equal to (5 + 100 - efficiency) *
 (1 - techfactor) that the missile will blow up on the launching pad instead of
@@ -68,8 +68,8 @@ impacts, possibly knocking out hardened  missiles  before  they  can  be  used
 against  you.  In the parlance of nuclear targeting doctrine, this is known as
 "counter-force" targeting.  Air-bursts are used in order to kill large numbers
 of civilians, to knock out industry (by flattening the factories), to take out
-lightly armored military targets in a  large  area,  and  to  generally  wreak
-havoc.  Nuclear strategists call this a "counter-value" technique.
+lightly armored military targets in a large area, and to generally wreak  hav-
+oc.  Nuclear strategists call this a "counter-value" technique.
 
 See Also "On Thermonuclear War" by Herman Kahn.
 
@@ -93,8 +93,8 @@ this:
 That is, start in the middle, move northeast until you hit the edge, then con-
 tinue from the west edge near the top and go northeast until you  go  off  the
 top  of  the map, then continue at the bottom going northeast until you go off
-the eastern edge again, and continue from the western  edge  near  the  bottom
-until you get back to the centre.
+the eastern edge again, and continue from the western edge near the bottom un-
+til you get back to the centre.
 
 If  a  foreign satellite moves over your territory durring an update, then you
 will get a message like "Fodderland satellite spotted over 12,24" as a part of

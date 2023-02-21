@@ -27,12 +27,12 @@ These columns represent:
       sect  the x and y coordinates of the sector
 sgpidbolhr  Ten delivery columns corresponding  to:  shells,  guns,  petroleum
             (refined),  iron,  dust (gold), bars of gold, oil, light construc-
-            tion materials,  heavy  construction  materials,  and  radioactive
-            materials.
+            tion materials, heavy construction materials, and radioactive  ma-
+            terials.
 sgpidbolhr  Ten  distribute  columns corresponding to: shells, guns, petroleum
             (refined), iron, dust (gold), bars of gold, oil,  light  construc-
-            tion  materials,  heavy  construction  materials,  and radioactive
-            materials.
+            tion  materials, heavy construction materials, and radioactive ma-
+            terials.
         sh  the number of shells in storage
        gun  the number of guns in storage
        pet  the number of units of refined petroleum

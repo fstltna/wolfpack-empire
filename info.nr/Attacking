@@ -108,16 +108,16 @@ Ships have an offense value of 1.
 
 The  defense  strength  of  a land unit is the total number of mil in the unit
 times its defense multiplier (see show land stats).   The  only  exception  to
-this  is  non-marine  land  units  on ships which have a strength equal to the
-total number of mil in them.  The defense strength of units out of  supply  is
-cut  in half.  The defense strength of fortified units is multiplied by (127 +
-fortification) / 127.
+this  is non-marine land units on ships which have a strength equal to the to-
+tal number of mil in them.  The defense strength of units out of supply is cut
+in half.  The defense strength of fortified units is multiplied by (127 + for-
+tification) / 127.
 
 The total defense strength is the number of mil plus the defense  strength  of
 all  defensive  units.  This number is then multiplied by the defense value of
-the sector the mil and units are in (see show sector  stats).   Ships  have  a
-defense  value  of  1  +  def/100  (see  show  ship  stats).   You can use the
-"strength" command to see the defense strength of your sectors.
+the sector the mil and units are in (see show sector stats).  Ships have a de-
+fense  value of 1 + def/100 (see show ship stats).  You can use the "strength"
+command to see the defense strength of your sectors.
 
 (4)  Move reacting defensive units to the target sector.
 
@@ -203,12 +203,12 @@ level of plague already.)
 
 (8)  Take mobility and supply from land units.
 
-The "aggresor loss factor" is equal to  the  number  of  aggressor  casualties
-divided  by  the total number of aggressor troops that went into the conflict.
-Similarly, the "defender loss factor" is  calculated.   Then  each  land  unit
-loses  mobility  equal to 10 * (loss factor).  Also there is a chance equal to
-the loss factor that the land unit will use up some of its  supply  (see  info
-supply).
+The "aggresor loss factor" is equal to the number of aggressor casualties  di-
+vided  by  the  total  number of aggressor troops that went into the conflict.
+Similarly, the "defender loss factor" is calculated.  Then each land unit los-
+es  mobility equal to 10 * (loss factor).  Also there is a chance equal to the
+loss factor that the land unit will use up some of its supply (see  info  sup-
+ply).
 
 (9)  Send reacting units home.
 
@@ -217,11 +217,11 @@ from at no mobility charge.
 
 (10) If successful, the aggressor takes the target sector/ship.
 
-Either 1 aggressor mil (first choice) or one  land  unit  (second  choice)  is
-automatically  moved  into  the  conquered ship or sector to occupy it.  Since
-this mil or unit is effectively "chasing out" the remnants  of  the  defending
-forces,  the  defender  will not interdict it (because he won't want to damage
-his forces with "friendly fire").
+Either 1 aggressor mil (first choice) or one land unit (second choice) is  au-
+tomatically  moved into the conquered ship or sector to occupy it.  Since this
+mil or unit is effectively "chasing out" the remnants of the defending forces,
+the defender will not interdict it (because he won't want to damage his forces
+with "friendly fire").
 
    This is what happens to the sector when you take it:
    - All delivery and distribution information is wiped.
@@ -305,8 +305,8 @@ The mobility costs here are the same as for "move" and "march".
 
 (14) Possibly interdict the aggressor's mil and units as they move.
 
-Post-attack  interdiction  only  occurrs  in  the "attack" command (and not in
-"assault", "paradrop", "board" or "lboard").  When you move your mil into  the
+Post-attack interdiction only occurrs in the "attack" command (and not in "as-
+sault", "paradrop", "board" or "lboard").  When you move  your  mil  into  the
 target  sector after an attack, you will risk the same chances of interdiction
 (number of mil / 200) and stepping on land mines (see "info lmine") as if  you
 were moving them using the "move" command.

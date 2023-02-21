@@ -7,8 +7,8 @@ Level: Expert
 
 There  have been several changes/fixes made to the Chainsaw code in the Empire
 2 Server.  This outlines the various changes and how they will affect you, the
-player.    Most   of   these   changes   were  coded  by  Ken  Stevens  <chil-
-dren@empire.net>.
+player.   Most  of  these  changes  were  coded  by  Ken Stevens <children@em-
+pire.net>.
 
 Ships
    -  Ships now have three letter abbreviations.
@@ -47,8 +47,8 @@ Ships
       builds 2 fishing boats at tech level 99.
    -  "show" output now shows you the total amount  of  avail  used  to  build
       something.
-   -  The  Autonav  code  has  been  completely  rewritten and is dramatically
-      improved.  Thanks Chad!
+   -  The  Autonav  code has been completely rewritten and is dramatically im-
+      proved.  Thanks Chad!
    -  You now get a telegram if someone loads something onto your ship  or  if
       someone unloads into your harbour.
    -  Load/Unload now tell you exactly how much stuff got loaded/unloaded from
@@ -82,8 +82,8 @@ Subs
    -  However there is a chance that the plane won't even leave the ground and
       notice any sub movement at all.  The chance of detection is  identchance
       = (1 - (1 - hitchance)^2).
-   -  ASW  planes  will  no  longer  detect subs they fly over while flying an
-      interdiction mission.
+   -  ASW  planes will no longer detect subs they fly over while flying an in-
+      terdiction mission.
    -  Once the planes have arrived at the sector where the  sub  movement  was
       detected, then identchance is checked again.  If success, then the plane
       is able to identify the owner of the sub.  If the owner is neutral, then
@@ -129,8 +129,8 @@ Navigation
    -  You can list the ship you are navigating using 'i' and  you  can  change
       your flagship using 'f'.
    -  Navigating  using  "nav",  "order"  or "sail" now calls exactly the same
-      code  and  will  thus  result  in  exactly  the  same  risks  (mines   &
-      interdiction).
+      code and will thus result in exactly the same risks (mines  &  interdic-
+      tion).
    -  Now you can type commands like this:
          [##:##] Command : nav 72 jlsruMluBursh
       That is, you can mix directions with other navigation commands.
@@ -144,11 +144,11 @@ Navigation
    -  There  is now a new kind of diplomatic relation that you can have with a
       country: "Friendly" which falls between "Neutral"  and  "Allied".   This
       basically  splits  "Allied" into two steps: anything to do with ships is
-      available to "Friendly"  nations  (nav,  load,  unload,  tend,  upgrade,
-      order,  sail,  follow),  whereas  anything to do with planes or military
-      support is reserved for Allies.  This allows you  to  establish  trading
-      relationships  without  the  necessity  of a military relationship.  See
-      info relation for full details.
+      available to "Friendly" nations (nav, load, unload, tend,  upgrade,  or-
+      der,  sail, follow), whereas anything to do with planes or military sup-
+      port is reserved for Allies.  This allows you to establish trading rela-
+      tionships  without  the  necessity of a military relationship.  See info
+      relation for full details.
    -  If the BIG_CITY option is enabled, then small ships may navigate,  load,
       and unload in 2% cities.
 
@@ -182,9 +182,9 @@ Planes
       like to program the warhead to airburst or groundburst.
    -  Missiles and planes are now limited to a maximum of one warhead apiece.
    -  A-sats  will  now  automatically  attempt  to  intercept  any satellites
-      launched by a country you're "Hostile" or "At  War"  with.   This  works
-      exactly  the  same  way as ABM defense.  Also, if you launch a satellite
-      over a sector which is owned by a non-ally then they will get a  message
+      launched by a country you're "Hostile" or "At War" with.  This works ex-
+      actly the same way as ABM defense.  Also, if you launch a satellite over
+      a sector which is owned by a non-ally  then  they  will  get  a  message
       telling them that you have positioned a satellite over their sector.  In
       the age of advanced telecommunication such things don't go unnoticed.
    -  There is now only one formula for determining  whether  a  plane/missile
@@ -294,8 +294,8 @@ Commands
       but will now be allowed to use them:
 
       demobilize lload llookout load lookout lradar lrange lretreat ltend lun-
-      load march mission morale  mquota  navigate  order  qorder  radar  range
-      retreat sail sonar sorder spy supply tend transport unload unsail
+      load march mission morale mquota navigate order qorder radar  range  re-
+      treat sail sonar sorder spy supply tend transport unload unsail
 
 Update
    -  If  you can not afford to maintain your ships/planes/units or you choose
@@ -341,14 +341,14 @@ Combat
       were attacking/assaulting/boarding from.  This caused  endless  problems
       (including  stranded  units).  In the new code, mil and units stay where
       they were until they have finished attacking.  The battle is assumed  to
-      take  place  along  the  "border"  between  the  two sectors.  Thus, the
-      attacking mil & land units will be vulnerable to shelling and  attacking
+      take  place  along  the "border" between the two sectors.  Thus, the at-
+      tacking mil & land units will be vulnerable to  shelling  and  attacking
       while you are answering the attack prompts.
-   -  If,  while  you  are  answering  the attack prompts, anything happens to
-      either the sector you are attacking, or the mil & units you are  attack-
-      ing  with,  then you will be notified ("land unit #3 damaged from 80% to
-      50%", "Your mil in 3,1 damaged from 180 to 12", "defending mil has  been
-      increased  from 10 to 250").  You will also be notified in this way if a
+   -  If,  while you are answering the attack prompts, anything happens to ei-
+      ther the sector you are attacking, or the mil & units you are  attacking
+      with, then you will be notified ("land unit #3 damaged from 80% to 50%",
+      "Your mil in 3,1 damaged from 180 to 12", "defending mil  has  been  in-
+      creased  from  10  to 250").  You will also be notified in this way if a
       bridge collapses, one of your attacking  sectors  was  taken,  you  were
       shelled,  your  enemy abandoned the sector you were attacking, your land
       units reacted to fight another battle, ...)  You will be notified if any
@@ -372,59 +372,58 @@ Combat
       units, then it will assume that they were at 100%.  Based on this  esti-
       mated  defense  strength,  the server will calculate an estimate of your
       success odds for you and if these estimated odds are less than 50%, then
-      the  server  will  ask  you if you're sure you want to continue with the
-      attack.  These estimates are made  before  support  is  calculated,  and
-      before the enemy reacting units have reacted, so it will not be particu-
-      larly accurate.  However, if by the time you've finished  answering  all
-      the  attack prompts something has happened which has made your odds much
-      worse than you expected (e.g. your cavalry got  shelled  or  your  enemy
-      beefed  up  his  mil),  then  this  will  give you a chance to abort the
-      attack.
-   -  Immediately after a battle is won (i.e. before any  move-in  sub-prompts
+      the server will ask you if you're sure you want to continue with the at-
+      tack.  These estimates are made before support is calculated, and before
+      the  enemy  reacting  units have reacted, so it will not be particularly
+      accurate.  However, if by the time you've finished answering all the at-
+      tack  prompts something has happened which has made your odds much worse
+      than you expected (e.g. your cavalry got shelled or your enemy beefed up
+      his mil), then this will give you a chance to abort the attack.
+   -  Immediately  after  a battle is won (i.e. before any move-in sub-prompts
       are asked), 1 mil (first choice) or 1 land unit (second choice) is auto-
       matically moved into the taken sector.  Not only does this put a defini-
-      tive  stop to shell-draining tricks, but it also resolves what was a big
-      problem in the old code of the taken sector being owned but  not  occup-
-      pied  for  a  period.   This  problem  resulted  in, among other things,
-      stranded land units.  It is impossible to strand a land unit in the  new
+      tive stop to shell-draining tricks, but it also resolves what was a  big
+      problem  in  the old code of the taken sector being owned but not occup-
+      pied for a period.   This  problem  resulted  in,  among  other  things,
+      stranded  land units.  It is impossible to strand a land unit in the new
       code.
-   -  I  have  added  a  new option to the server called INTERDICT_ATT, which,
-      when enabled, calls the usual interdiction routines against mil  &  land
-      units  moving  into the victim sector after an attack.  The same chances
+   -  I have added a new option to the  server  called  INTERDICT_ATT,  which,
+      when  enabled,  calls the usual interdiction routines against mil & land
+      units moving into the victim sector after an attack.  The  same  chances
       of interdiction apply as in "move" and "march".  The mil get interdicted
       sector by sector, and the land units all at once.
-   -  In  the  new  attack code, it is much harder for a unit to fail a morale
+   -  In the new attack code, it is much harder for a unit to  fail  a  morale
       check.  The new chance (recalculated after each hit) is (retreat% - unit
-      efficiency).   Thus,  a  land unit which has a retreat percentage of 60%
+      efficiency).  Thus, a land unit which has a retreat  percentage  of  60%
       and is now 50% efficient, will have a 10% chance of retreating with each
       hit.
 
 Important bugfixes
-   -  Missiles  on  subs will now fly missions against enemy planes (in chain-
+   -  Missiles on subs will now fly missions against enemy planes  (in  chain-
       saw, the missiles simply vanish).
    -  Subs now only interdict subs if they have sub-torp ability (in chainsaw,
       sb1's will interdict sb1's).
    -  Missiles will no longer hit subs.
-   -  Your  airport  now  needs to be at least 60% eff in order to fly bombing
-      runs from it (in chainsaw you can bomb from 40% airports, but  only  fly
+   -  Your airport now needs to be at least 60% eff in order  to  fly  bombing
+      runs  from  it (in chainsaw you can bomb from 40% airports, but only fly
       and recon to 60% airports).
-   -  You  can't  sweep, hit, or lay sea mines in a harbour.  You can't sweep,
-      hit, or lay land mines on a bridge.  (In chainsaw,  your  ally  can  hit
+   -  You can't sweep, hit, or lay sea mines in a harbour.  You  can't  sweep,
+      hit,  or  lay  land  mines on a bridge.  (In chainsaw, your ally can hit
       your land mines in your harbour.)
-   -  It  is no longer possible to accidently go broke through any of the fol-
-      lowing commands: build,  convert,  demob,  des,  harden,  upgrade.   (In
-      chainsaw  it's  easy  to accidentally go broke through one of these com-
+   -  It is no longer possible to accidently go broke through any of the  fol-
+      lowing  commands:  build,  convert,  demob,  des,  harden, upgrade.  (In
+      chainsaw it's easy to accidentally go broke through one  of  these  com-
       mands.)
    -  Much of the "attack" function was rewritten to check for "special cases"
       which can result in lost military and units.  Thanks Chad!
    -  The range of missiles on interdiction mission was half of what it should
       be.  this is now fixed.
-   -  If you typed "realm #2 0:10,0:10", it would change realm  #0.   This  is
+   -  If  you  typed  "realm #2 0:10,0:10", it would change realm #0.  This is
       now fixed
-   -  If  you downgraded your relations from Allied to Neutral, then the other
+   -  If you downgraded your relations from Allied to Neutral, then the  other
       country would downgrade their relations towards you to Hostile.  This is
       now fixed.
-   -  You  used to have to log out and back in again to stop being broke.  Now
+   -  You used to have to log out and back in again to stop being broke.   Now
       your status will be updated as soon as you get the money (well, one com-
       mand after to be exact).
 
